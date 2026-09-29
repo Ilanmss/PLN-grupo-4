@@ -1,0 +1,54 @@
+EXPERIMENTO: HOLDOUT + NESTED CROSS-VALIDATION
+======================================================================
+
+Dataset: data/train.xlsx
+Coluna de texto: resp_text
+Coluna alvo: clarity
+
+Total de registros: 20092
+Treino: 16073 (80%)
+Teste: 4019 (20%)
+
+Validação externa: 5 folds x 10 repetições
+Validação interna: 5 folds
+Métrica principal: F1-macro
+Separação: estratificada
+Random State: 42
+
+RESULTADOS DA NESTED CROSS-VALIDATION
+----------------------------------------------------------------------
+
+Modelo: ComplementNB
+F1-macro: 0.4528 +/- 0.0064
+Accuracy: 0.4528 +/- 0.0068
+Cohen's Kappa: 0.1784 +/- 0.0102
+
+Modelo: MultinomialNB
+F1-macro: 0.4515 +/- 0.0073
+Accuracy: 0.4520 +/- 0.0073
+Cohen's Kappa: 0.1763 +/- 0.0110
+
+
+RESULTADOS NO TESTE INDEPENDENTE
+----------------------------------------------------------------------
+
+Modelo: MultinomialNB
+F1-macro: 0.4480
+Accuracy: 0.4504
+Cohen's Kappa: 0.1739
+F1-macro CV interna: 0.4552
+Melhores parâmetros: {"modelo__alpha": 0.1, "tfidf__min_df": 1, "tfidf__ngram_range": [1, 2]}
+
+Modelo: ComplementNB
+F1-macro: 0.4473
+Accuracy: 0.4496
+Cohen's Kappa: 0.1733
+F1-macro CV interna: 0.4565
+Melhores parâmetros: {"modelo__alpha": 0.5, "tfidf__min_df": 1, "tfidf__ngram_range": [1, 2]}
+
+
+OBSERVAÇÃO METODOLÓGICA
+----------------------------------------------------------------------
+O conjunto de teste foi separado antes do treinamento e não participou da seleção de hiperparâmetros, validação cruzada ou ajuste dos modelos.
+A Nested Cross-Validation foi realizada exclusivamente no conjunto de treinamento.
+Os resultados do teste representam a avaliação final dos modelos treinados com o conjunto de treinamento.

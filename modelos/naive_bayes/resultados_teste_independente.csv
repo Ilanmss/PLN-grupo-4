@@ -1,0 +1,3 @@
+﻿modelo,f1_macro_teste,accuracy_teste,cohen_kappa_teste,best_score_cv_treino,melhores_parametros
+MultinomialNB,0.44803902337330764,0.4503607862652401,0.17386096103417537,0.4551701488986108,"{""modelo__alpha"": 0.1, ""tfidf__min_df"": 1, ""tfidf__ngram_range"": [1, 2]}"
+ComplementNB,0.44727782900494883,0.44961433192336403,0.1732918114486356,0.45650803464641554,"{""modelo__alpha"": 0.5, ""tfidf__min_df"": 1, ""tfidf__ngram_range"": [1, 2]}"
