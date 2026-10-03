@@ -204,6 +204,30 @@ A versão com viés (maior F1-macro) foi gerada antes e continua em `modelos/ent
 - **Comparação na validação cruzada:** sem viés a acurácia é 0,4706 contra 0,4682 (melhor em 3 de 5 folds) e o F1 é 0,4663 contra 0,4686 (pior em 4 de 5 folds). A diferença fica dentro do ruído entre folds.
 - As probabilidades das duas execuções são idênticas, e os rótulos da entrega correspondem ao argmax da média ponderada.
 
+## 5.4 Conferência da entrega em validação cruzada aleatória (03/10)
+
+A escolha do modelo foi feita na validação **agrupada**, que proíbe cópias do mesmo texto no treino e na avaliação.
+O teste real tem cópias: 9,8% dos textos do `test1.xlsx` são idênticos a textos do `train.xlsx`. Para conferir se a
+escolha se mantém nesse cenário, `avaliar_divisao_aleatoria.py` compara os candidatos em 5 folds **aleatórios**
+(estratificados, semente 0), em que 10,0% dos textos avaliados têm cópia idêntica no treino.
+
+| Modelo | Acurácia (média ± dp) | F1-macro |
+|---|---|---|
+| Baseline TF-IDF + LogReg | 0,4557 ± 0,0071 | 0,4532 |
+| SVC palavra+caractere + ComplementNB (média simples) | 0,4640 ± 0,0087 | 0,4614 |
+| SVC palavra+caractere + LogReg + ComplementNB (média simples) | 0,4623 ± 0,0072 | 0,4603 |
+| BERTimbau sozinho* | 0,4600 ± 0,0058 | 0,4544 |
+| **Entregue: BERTimbau + SVC palavra+caractere + LogReg (pesos da receita)*** | **0,4748 ± 0,0023** | **0,4704** |
+| BERTimbau + SVC palavra+caractere + LogReg + ComplementNB (média simples)* | 0,4712 ± 0,0053 | 0,4679 |
+
+\* O BERT usa as previsões da validação agrupada, em que nunca viu cópias do texto avaliado (treiná-lo em 5 folds
+aleatórios custaria ~11h de GPU). Os valores dos ensembles com BERT são, portanto, um limite inferior.
+
+- O ensemble entregue é o melhor também neste cenário, mesmo com o BERT em desvantagem: +1,1 ponto sobre o SVC + ComplementNB e +1,9 sobre o baseline. Fica à frente em 4 dos 5 folds e empata no outro (0,4778 contra 0,4776).
+- Acrescentar o ComplementNB ao ensemble com BERT não ajuda (0,4712 contra 0,4748).
+- O valor de 0,4854 do SVC + ComplementNB na divisão do baseline (80/20, semente 123) vinha de uma divisão única e favorável: em 5 divisões aleatórias, a média dele é 0,4640.
+- **Decisão: o arquivo de entrega é mantido.**
+
 ## 6. Como reproduzir
 
 ```bash
