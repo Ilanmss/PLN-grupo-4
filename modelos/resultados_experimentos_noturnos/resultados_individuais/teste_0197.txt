@@ -1,0 +1,13 @@
+TESTE 197/200
+Inicio: 2026-09-29 03:58:15
+Representacao: word_charwb
+Classificador: SGD_log_loss
+Parametros: {"alpha": 0.0001, "class_weight": null}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.4437639037810593, 0.4522880189003029, 0.4486248679870162, 0.4541749125310816, 0.43865275223935624]
+F1-macro medio: 0.447501
+Desvio padrao: 0.006344
+Accuracy media: 0.449014
+Duracao: 2.02 minutos
+Status: CONCLUIDO

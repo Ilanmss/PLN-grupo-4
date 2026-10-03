@@ -1,0 +1,13 @@
+TESTE 154/200
+Inicio: 2026-09-29 02:30:47
+Representacao: charwb_35
+Classificador: SGD_hinge
+Parametros: {"alpha": 0.001, "class_weight": "balanced"}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.4390171150687651, 0.43514070985303094, 0.4265242568061849, 0.424247645182853, 0.4356860400996179]
+F1-macro medio: 0.432123
+Desvio padrao: 0.006378
+Accuracy media: 0.446960
+Duracao: 1.56 minutos
+Status: CONCLUIDO

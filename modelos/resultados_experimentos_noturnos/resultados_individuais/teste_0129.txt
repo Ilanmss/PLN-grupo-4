@@ -1,0 +1,13 @@
+TESTE 129/200
+Inicio: 2026-09-29 01:58:17
+Representacao: charwb_35
+Classificador: LinearSVC
+Parametros: {"C": 1, "class_weight": null}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.452870746834885, 0.4398497438338067, 0.4350845980437023, 0.4299559510069793, 0.42930632046194567]
+F1-macro medio: 0.437413
+Desvio padrao: 0.009639
+Accuracy media: 0.438187
+Duracao: 2.05 minutos
+Status: CONCLUIDO

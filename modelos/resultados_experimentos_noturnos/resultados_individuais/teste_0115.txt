@@ -1,0 +1,13 @@
+TESTE 115/200
+Inicio: 2026-09-29 01:31:10
+Representacao: char_35
+Classificador: SGD_log_loss
+Parametros: {"alpha": 1e-05, "class_weight": null}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.44078099879775623, 0.4375615695245439, 0.4345460253591012, 0.4401773153598127, 0.42501644848709036]
+F1-macro medio: 0.435616
+Desvio padrao: 0.006418
+Accuracy media: 0.437254
+Duracao: 2.50 minutos
+Status: CONCLUIDO

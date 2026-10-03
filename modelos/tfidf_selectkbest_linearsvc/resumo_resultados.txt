@@ -1,0 +1,53 @@
+RESULTADOS DO EXPERIMENTO
+======================================================================
+
+Configuração do experimento:
+Dataset: data/train.xlsx
+Coluna textual: resp_text
+Target: clarity
+Total de combinações: 720
+Divisão treino: 12054
+Divisão validação: 4019
+Divisão teste: 4019
+
+Melhor configuração selecionada pela CV:
+{
+    "classificador__C": 0.1,
+    "selecao__k": "all",
+    "tfidf__max_df": 1.0,
+    "tfidf__max_features": null,
+    "tfidf__min_df": 1,
+    "tfidf__ngram_range": [
+        1,
+        1
+    ],
+    "tfidf__norm": "l2",
+    "tfidf__sublinear_tf": true,
+    "tfidf__use_idf": true
+}
+
+Resultados da validação cruzada:
+F1-macro médio: 0.4519
+Desvio padrão: 0.0044
+Scores dos folds: [0.45272313295156447, 0.4498657506372072, 0.4552805942080949, 0.45698569888192636, 0.4444050202670892]
+
+Resultados no teste independente:
+F1-macro: 0.4507
+Accuracy: 0.4543
+Cohen's kappa: 0.1803
+
+Relatório de classificação:
+              precision    recall  f1-score   support
+
+          c1       0.47      0.45      0.46      1269
+        c234       0.41      0.35      0.38      1371
+          c5       0.48      0.56      0.52      1379
+
+    accuracy                           0.45      4019
+   macro avg       0.45      0.45      0.45      4019
+weighted avg       0.45      0.45      0.45      4019
+
+Matriz de confusão:
+[[567 367 335]
+ [374 482 515]
+ [265 337 777]]

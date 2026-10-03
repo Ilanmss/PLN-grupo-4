@@ -1,0 +1,8 @@
+baseline_classe_majoritaria  F1 por fold [0.1708 0.1675 0.1727 0.1682 0.1672] | média 0.1693 ± 0.0021 | 0.0 min
+baseline_bow_logreg          F1 por fold [0.427  0.4248 0.4372 0.4338 0.4287] | média 0.4303 ± 0.0045 | 3.4 min
+baseline_tfidf_logreg        F1 por fold [0.4412 0.4567 0.459  0.452  0.4515] | média 0.4521 ± 0.0061 | 0.4 min
+svc_word12                   F1 por fold [0.4472 0.4491 0.4668 0.449  0.4584] | média 0.4541 ± 0.0075 | 0.9 min
+svc_word12_char25            F1 por fold [0.4552 0.4523 0.4567 0.4527 0.454 ] | média 0.4542 ± 0.0016 | 8.4 min
+logreg_word12                F1 por fold [0.4472 0.4432 0.4614 0.4503 0.4534] | média 0.4511 ± 0.0062 | 2.5 min
+complementnb_word12          F1 por fold [0.4496 0.4448 0.4605 0.4407 0.4535] | média 0.4498 ± 0.0069 | 0.5 min
+multinomialnb_word12         F1 por fold [0.4452 0.4443 0.4579 0.4482 0.46  ] | média 0.4511 ± 0.0066 | 0.5 min

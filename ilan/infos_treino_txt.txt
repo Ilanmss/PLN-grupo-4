@@ -1,0 +1,1323 @@
+Chegou a hora de entregar o trabalho e o formato do relatório que eu preciso montar é: citar todos os modelos e testes, e dentro deles as estrategias de preprocessamento, parametros, tokenização, seleção de atributos e procedimentos.
+
+Aqui os logs do meus treinos no pdf
+
+# [1/9] Seleção: none | Modelo: naive_bayes
+#     Tempo: 0.24s | F1-Score: 0.3368 | Acurácia: 0.3394
+#     Restantes: 8 testes
+# --------------------------------------------------
+# [2/9] Seleção: none | Modelo: logistic_regression
+#     Tempo: 2.88s | F1-Score: 0.3356 | Acurácia: 0.3420
+#     Restantes: 7 testes
+# --------------------------------------------------
+# [3/9] Seleção: none | Modelo: lightgbm
+#     Tempo: 6.35s | F1-Score: 0.3113 | Acurácia: 0.3178
+#     Restantes: 6 testes
+# --------------------------------------------------
+# [4/9] Seleção: mutual_info | Modelo: naive_bayes
+#     Tempo: 20.66s | F1-Score: 0.3348 | Acurácia: 0.3431
+#     Restantes: 5 testes
+# --------------------------------------------------
+# [5/9] Seleção: mutual_info | Modelo: logistic_regression
+#     Tempo: 22.83s | F1-Score: 0.3360 | Acurácia: 0.3542
+#     Restantes: 4 testes
+# --------------------------------------------------
+# [6/9] Seleção: mutual_info | Modelo: lightgbm
+#     Tempo: 22.79s | F1-Score: 0.3238 | Acurácia: 0.3330
+#     Restantes: 3 testes
+# --------------------------------------------------
+# [7/9] Seleção: variance | Modelo: naive_bayes
+#     Tempo: 0.22s | F1-Score: 0.3368 | Acurácia: 0.3394
+#     Restantes: 2 testes
+# --------------------------------------------------
+# [8/9] Seleção: variance | Modelo: logistic_regression
+#     Tempo: 0.15s | F1-Score: 0.3356 | Acurácia: 0.3420
+#     Restantes: 1 testes
+# --------------------------------------------------
+# [9/9] Seleção: variance | Modelo: lightgbm
+#     Tempo: 6.51s | F1-Score: 0.3113 | Acurácia: 0.3178
+#     Restantes: 0 testes
+# --------------------------------------------------
+
+# ==================================================
+# FINALIZADO COM SUCESSO!
+# Melhor Configuração: {'feature_sel': 'none', 'model': 'naive_bayes'}
+# Melhor F1-Score: 0.3368
+# O pipeline do melhor modelo foi salvo em 'best_model_pipeline.pkl'.
+# ==================================================
+
+
+
+# [1/18] Método: top_down | Seleção: none | Modelo: naive_bayes
+#     Tempo: 0.96s | F1-Score: 0.3951 | Acurácia: 0.4053
+#     Restantes: 17 testes
+# --------------------------------------------------
+# [2/18] Método: top_down | Seleção: none | Modelo: logistic_regression
+#     Tempo: 1.00s | F1-Score: 0.4233 | Acurácia: 0.4268
+#     Restantes: 16 testes
+# --------------------------------------------------
+# [3/18] Método: top_down | Seleção: none | Modelo: lightgbm
+#     Tempo: 16.88s | F1-Score: 0.4279 | Acurácia: 0.4292
+#     Restantes: 15 testes
+# --------------------------------------------------
+# [4/18] Método: top_down | Seleção: mutual_info | Modelo: naive_bayes
+#     Tempo: 21.42s | F1-Score: 0.3913 | Acurácia: 0.3986
+#     Restantes: 14 testes
+# --------------------------------------------------
+# [5/18] Método: top_down | Seleção: mutual_info | Modelo: logistic_regression
+#     Tempo: 21.21s | F1-Score: 0.4082 | Acurácia: 0.4143
+#     Restantes: 13 testes
+# --------------------------------------------------
+# [6/18] Método: top_down | Seleção: mutual_info | Modelo: lightgbm
+#     Tempo: 35.15s | F1-Score: 0.3996 | Acurácia: 0.4021
+#     Restantes: 12 testes
+# --------------------------------------------------
+# [7/18] Método: top_down | Seleção: variance | Modelo: naive_bayes
+#     Tempo: 0.82s | F1-Score: 0.2919 | Acurácia: 0.3572
+#     Restantes: 11 testes
+# --------------------------------------------------
+# [8/18] Método: top_down | Seleção: variance | Modelo: logistic_regression
+#     Tempo: 0.74s | F1-Score: 0.2922 | Acurácia: 0.3574
+#     Restantes: 10 testes
+# --------------------------------------------------
+# [9/18] Método: top_down | Seleção: variance | Modelo: lightgbm
+#     Tempo: 12.86s | F1-Score: 0.3308 | Acurácia: 0.3447
+#     Restantes: 9 testes
+# --------------------------------------------------
+# [10/18] Método: 5class_refinement | Seleção: none | Modelo: naive_bayes
+#     Tempo: 0.44s | F1-Score: 0.3981 | Acurácia: 0.3999
+#     Restantes: 8 testes
+# --------------------------------------------------
+# [11/18] Método: 5class_refinement | Seleção: none | Modelo: logistic_regression
+#     Tempo: 6.47s | F1-Score: 0.3269 | Acurácia: 0.4122
+#     Restantes: 7 testes
+# --------------------------------------------------
+# [12/18] Método: 5class_refinement | Seleção: none | Modelo: lightgbm
+#     Tempo: 10.48s | F1-Score: 0.3565 | Acurácia: 0.4215
+#     Restantes: 6 testes
+# --------------------------------------------------
+# [13/18] Método: 5class_refinement | Seleção: mutual_info | Modelo: naive_bayes
+#     Tempo: 20.83s | F1-Score: 0.3886 | Acurácia: 0.3984
+#     Restantes: 5 testes
+# --------------------------------------------------
+# [14/18] Método: 5class_refinement | Seleção: mutual_info | Modelo: logistic_regression
+#     Tempo: 21.59s | F1-Score: 0.3165 | Acurácia: 0.4015
+#     Restantes: 4 testes
+# --------------------------------------------------
+# [15/18] Método: 5class_refinement | Seleção: mutual_info | Modelo: lightgbm
+#     Tempo: 24.92s | F1-Score: 0.3429 | Acurácia: 0.4090
+#     Restantes: 3 testes
+# --------------------------------------------------
+# [16/18] Método: 5class_refinement | Seleção: variance | Modelo: naive_bayes
+#     Tempo: 0.10s | F1-Score: 0.1822 | Acurácia: 0.3508
+#     Restantes: 2 testes
+# --------------------------------------------------
+# [17/18] Método: 5class_refinement | Seleção: variance | Modelo: logistic_regression
+#     Tempo: 0.11s | F1-Score: 0.1822 | Acurácia: 0.3508
+#     Restantes: 1 testes
+# --------------------------------------------------
+# [18/18] Método: 5class_refinement | Seleção: variance | Modelo: lightgbm
+#     Tempo: 1.19s | F1-Score: 0.2575 | Acurácia: 0.3354
+#     Restantes: 0 testes
+# --------------------------------------------------
+
+# ==================================================
+# FINALIZADO COM SUCESSO!
+# Melhor Configuração: {'method': 'top_down', 'feature_sel': 'none', 'model': 'lightgbm'}
+# Melhor F1-Score: 0.4279
+# O pipeline do melhor modelo foi salvo em 'best_model_pipeline.pkl'.
+# ==================================================
+
+
+# [1/18] Vetorizador: word_ngram | Estratégia: direct | Modelo: naive_bayes
+#     Tempo: 6.31s | F1-Score: 0.4029 | Acurácia: 0.4225
+#     Restantes: 17 testes
+# --------------------------------------------------
+# [2/18] Vetorizador: word_ngram | Estratégia: direct | Modelo: logistic_regression
+#     Tempo: 6.87s | F1-Score: 0.4268 | Acurácia: 0.4300
+#     Restantes: 16 testes
+# --------------------------------------------------
+# [3/18] Vetorizador: word_ngram | Estratégia: direct | Modelo: lightgbm
+#     Tempo: 28.89s | F1-Score: 0.4299 | Acurácia: 0.4326
+#     Restantes: 15 testes
+# --------------------------------------------------
+# [4/18] Vetorizador: word_ngram | Estratégia: ovr | Modelo: naive_bayes
+#     Tempo: 7.69s | F1-Score: 0.3956 | Acurácia: 0.4185
+#     Restantes: 14 testes
+# --------------------------------------------------
+# [5/18] Vetorizador: word_ngram | Estratégia: ovr | Modelo: logistic_regression
+#     Tempo: 6.60s | F1-Score: 0.4288 | Acurácia: 0.4326
+#     Restantes: 13 testes
+# --------------------------------------------------
+# [6/18] Vetorizador: word_ngram | Estratégia: ovr | Modelo: lightgbm
+#     Tempo: 30.82s | F1-Score: 0.4303 | Acurácia: 0.4334
+#     Restantes: 12 testes
+# --------------------------------------------------
+# [7/18] Vetorizador: char_ngram | Estratégia: direct | Modelo: naive_bayes
+#     Tempo: 30.99s | F1-Score: 0.4174 | Acurácia: 0.4257
+#     Restantes: 11 testes
+# --------------------------------------------------
+# [8/18] Vetorizador: char_ngram | Estratégia: direct | Modelo: logistic_regression
+#     Tempo: 35.63s | F1-Score: 0.4241 | Acurácia: 0.4273
+#     Restantes: 10 testes
+# --------------------------------------------------
+# [9/18] Vetorizador: char_ngram | Estratégia: direct | Modelo: lightgbm
+#     Tempo: 107.85s | F1-Score: 0.4318 | Acurácia: 0.4342
+#     Restantes: 9 testes
+# --------------------------------------------------
+# [10/18] Vetorizador: char_ngram | Estratégia: ovr | Modelo: naive_bayes
+#     Tempo: 31.45s | F1-Score: 0.4138 | Acurácia: 0.4247
+#     Restantes: 8 testes
+# --------------------------------------------------
+# [11/18] Vetorizador: char_ngram | Estratégia: ovr | Modelo: logistic_regression
+#     Tempo: 32.98s | F1-Score: 0.4255 | Acurácia: 0.4286
+#     Restantes: 7 testes
+# --------------------------------------------------
+# [12/18] Vetorizador: char_ngram | Estratégia: ovr | Modelo: lightgbm
+#     Tempo: 109.64s | F1-Score: 0.4326 | Acurácia: 0.4358
+#     Restantes: 6 testes
+# --------------------------------------------------
+# [13/18] Vetorizador: hybrid | Estratégia: direct | Modelo: naive_bayes
+#     Tempo: 6.25s | F1-Score: 0.3938 | Acurácia: 0.4156
+#     Restantes: 5 testes
+# --------------------------------------------------
+# [14/18] Vetorizador: hybrid | Estratégia: direct | Modelo: logistic_regression
+#     Tempo: 7.33s | F1-Score: 0.4339 | Acurácia: 0.4377
+#     Restantes: 4 testes
+# --------------------------------------------------
+# [15/18] Vetorizador: hybrid | Estratégia: direct | Modelo: lightgbm
+#     Tempo: 24.71s | F1-Score: 0.4370 | Acurácia: 0.4403
+#     Restantes: 3 testes
+# --------------------------------------------------
+# [16/18] Vetorizador: hybrid | Estratégia: ovr | Modelo: naive_bayes
+#     Tempo: 6.37s | F1-Score: 0.3928 | Acurácia: 0.4167
+#     Restantes: 2 testes
+# --------------------------------------------------
+# [17/18] Vetorizador: hybrid | Estratégia: ovr | Modelo: logistic_regression
+#     Tempo: 6.56s | F1-Score: 0.4347 | Acurácia: 0.4398
+#     Restantes: 1 testes
+# --------------------------------------------------
+# [18/18] Vetorizador: hybrid | Estratégia: ovr | Modelo: lightgbm
+#     Tempo: 25.94s | F1-Score: 0.4353 | Acurácia: 0.4395
+#     Restantes: 0 testes
+# --------------------------------------------------
+
+# ==================================================
+# FINALIZADO COM SUCESSO!
+# Melhor Configuração: {'vectorizer': 'hybrid', 'strategy': 'direct', 'model': 'lightgbm'}
+# Melhor F1-Score: 0.4370
+# Melhor Acurácia: 0.4403
+# O pipeline do melhor modelo foi salvo em 'best_model_pipeline.pkl'.
+
+
+
+# ============================================================
+# Iniciando Treinamento dos Modelos e Ensembles Avançados
+# ============================================================
+
+# Treinando: Regressão Logística Otimizada ...
+#   └─ Tempo: 47.69s | F1-Score: 0.4246 | Acurácia: 0.4252
+
+# Treinando: Extra Trees Classifier ...
+#   └─ Tempo: 139.01s | F1-Score: 0.4178 | Acurácia: 0.4308
+
+# Treinando: LightGBM Otimizado ...
+#   └─ Tempo: 618.14s | F1-Score: 0.4425 | Acurácia: 0.4446
+
+# Treinando: Voting Soft Ensemble (LR + ET + RF + LGBM) ...
+#   └─ Tempo: 907.62s | F1-Score: 0.4348 | Acurácia: 0.4374
+
+# Treinando: Stacking Classifier (Meta-Learner: LR) ...
+#   └─ Tempo: 3322.50s | F1-Score: 0.4398 | Acurácia: 0.4446
+
+# ============================================================
+# RESULTADO FINAL
+# Melhor Modelo: LightGBM Otimizado
+# Melhor F1-Score: 0.4425
+# ============================================================
+
+# Relatório de Classificação Detalhado:
+#               precision    recall  f1-score   support
+
+#           C1       0.45      0.41      0.43      1151
+#         C234       0.40      0.38      0.39      1292
+#           C5       0.47      0.54      0.50      1320
+
+#     accuracy                           0.44      3763
+#    macro avg       0.44      0.44      0.44      3763
+# weighted avg       0.44      0.44      0.44      3763
+
+
+# ============================================================
+# Treinando Modelos de Alta Separabilidade sobre Embeddings Semânticos
+# ============================================================
+
+# Treinando: Linear SVM (LinearSVC) ...
+#   └─ Tempo: 10.88s | F1-Score: 0.4215 | Acurácia: 0.4265
+
+# Treinando: Calibrated SVM (Com Probabilidades) ...
+#   └─ Tempo: 49.84s | F1-Score: 0.4183 | Acurácia: 0.4276
+
+# Treinando: SGD Classifier (Modified Huber Loss) ...
+#   └─ Tempo: 5.57s | F1-Score: 0.4269 | Acurácia: 0.4271
+
+# Treinando: HistGradientBoosting (Para Embeddings) ...
+#   └─ Tempo: 8.51s | F1-Score: 0.4269 | Acurácia: 0.4300
+
+# ============================================================
+# RESULTADO FINAL
+# Melhor Modelo: SGD Classifier (Modified Huber Loss)
+# Melhor F1-Score: 0.4269
+# ============================================================
+
+# Relatório de Classificação Detalhado:
+#               precision    recall  f1-score   support
+
+#           C1       0.42      0.38      0.39      1151
+#         C234       0.39      0.48      0.43      1292
+#           C5       0.49      0.42      0.45      1320
+
+#     accuracy                           0.43      3763
+#    macro avg       0.43      0.43      0.43      3763
+# weighted avg       0.43      0.43      0.43      3763
+
+
+
+Iniciando o Fine-Tuning do BERTimbau...
+{'loss': '1.099', 'grad_norm': '5.076', 'learning_rate': '9.8e-06', 'epoch': '0.05599'}                                          
+{'loss': '1.092', 'grad_norm': '2.104', 'learning_rate': '1.98e-05', 'epoch': '0.112'}                                           
+{'loss': '1.085', 'grad_norm': '4.472', 'learning_rate': '1.972e-05', 'epoch': '0.168'}                                          
+{'loss': '1.082', 'grad_norm': '3.616', 'learning_rate': '1.943e-05', 'epoch': '0.224'}                                          
+{'loss': '1.076', 'grad_norm': '3.089', 'learning_rate': '1.914e-05', 'epoch': '0.28'}                                           
+{'loss': '1.085', 'grad_norm': '4.158', 'learning_rate': '1.885e-05', 'epoch': '0.3359'}                                         
+{'loss': '1.068', 'grad_norm': '3.075', 'learning_rate': '1.857e-05', 'epoch': '0.3919'}                                         
+{'loss': '1.07', 'grad_norm': '2.68', 'learning_rate': '1.828e-05', 'epoch': '0.4479'}                                           
+{'loss': '1.07', 'grad_norm': '4.54', 'learning_rate': '1.799e-05', 'epoch': '0.5039'}                                           
+{'loss': '1.069', 'grad_norm': '2.462', 'learning_rate': '1.77e-05', 'epoch': '0.5599'}                                          
+{'loss': '1.053', 'grad_norm': '2.894', 'learning_rate': '1.741e-05', 'epoch': '0.6159'}                                         
+{'loss': '1.06', 'grad_norm': '3.099', 'learning_rate': '1.713e-05', 'epoch': '0.6719'}                                          
+{'loss': '1.056', 'grad_norm': '3.26', 'learning_rate': '1.684e-05', 'epoch': '0.7279'}                                          
+{'loss': '1.041', 'grad_norm': '2.856', 'learning_rate': '1.655e-05', 'epoch': '0.7839'}                                         
+{'loss': '1.056', 'grad_norm': '2.153', 'learning_rate': '1.626e-05', 'epoch': '0.8399'}                                         
+{'loss': '1.038', 'grad_norm': '2.724', 'learning_rate': '1.597e-05', 'epoch': '0.8959'}                                         
+{'loss': '1.064', 'grad_norm': '4.008', 'learning_rate': '1.569e-05', 'epoch': '0.9518'}                                         
+{'eval_loss': '1.045', 'eval_accuracy': '0.4458', 'eval_f1': '0.4451', 'eval_precision': '0.4517', 'eval_recall': '0.4458', 'eval_runtime': '398.3', 'eval_samples_per_second': '8.966', 'eval_steps_per_second': '0.281', 'epoch': '1'}                           
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.40s/it]
+{'loss': '1.03', 'grad_norm': '3', 'learning_rate': '1.54e-05', 'epoch': '1.008'}                                                
+{'loss': '1.002', 'grad_norm': '5.556', 'learning_rate': '1.511e-05', 'epoch': '1.064'}                                          
+{'loss': '0.9868', 'grad_norm': '2.774', 'learning_rate': '1.482e-05', 'epoch': '1.12'}                                          
+{'loss': '1.003', 'grad_norm': '3.924', 'learning_rate': '1.453e-05', 'epoch': '1.176'}                                          
+{'loss': '1.008', 'grad_norm': '4.463', 'learning_rate': '1.425e-05', 'epoch': '1.232'}                                          
+{'loss': '1.006', 'grad_norm': '5.884', 'learning_rate': '1.396e-05', 'epoch': '1.288'}                                          
+{'loss': '0.9963', 'grad_norm': '4.177', 'learning_rate': '1.367e-05', 'epoch': '1.344'}                                         
+{'loss': '1.023', 'grad_norm': '5.201', 'learning_rate': '1.338e-05', 'epoch': '1.4'}                                            
+{'loss': '0.9995', 'grad_norm': '5.44', 'learning_rate': '1.309e-05', 'epoch': '1.456'}                                          
+{'loss': '1.009', 'grad_norm': '4.121', 'learning_rate': '1.281e-05', 'epoch': '1.512'}                                          
+{'loss': '0.999', 'grad_norm': '7.874', 'learning_rate': '1.252e-05', 'epoch': '1.568'}                                          
+{'loss': '0.9685', 'grad_norm': '4.983', 'learning_rate': '1.223e-05', 'epoch': '1.624'}                                         
+{'loss': '1.011', 'grad_norm': '4.731', 'learning_rate': '1.194e-05', 'epoch': '1.68'}                                           
+{'loss': '1.019', 'grad_norm': '5.988', 'learning_rate': '1.165e-05', 'epoch': '1.736'}                                          
+{'loss': '0.9959', 'grad_norm': '5.918', 'learning_rate': '1.137e-05', 'epoch': '1.792'}                                         
+{'loss': '0.9652', 'grad_norm': '4.451', 'learning_rate': '1.108e-05', 'epoch': '1.848'}                                         
+{'loss': '0.9843', 'grad_norm': '4.379', 'learning_rate': '1.079e-05', 'epoch': '1.904'}                                         
+{'loss': '0.9947', 'grad_norm': '4.717', 'learning_rate': '1.05e-05', 'epoch': '1.96'}                                           
+{'eval_loss': '1.057', 'eval_accuracy': '0.4419', 'eval_f1': '0.4367', 'eval_precision': '0.4527', 'eval_recall': '0.4419', 'eval_runtime': '396.2', 'eval_samples_per_second': '9.012', 'eval_steps_per_second': '0.283', 'epoch': '2'}                           
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.80s/it]
+{'loss': '0.969', 'grad_norm': '4.118', 'learning_rate': '1.021e-05', 'epoch': '2.016'}                                          
+{'loss': '0.8948', 'grad_norm': '5.64', 'learning_rate': '9.925e-06', 'epoch': '2.072'}                                          
+{'loss': '0.925', 'grad_norm': '6.322', 'learning_rate': '9.637e-06', 'epoch': '2.128'}                                          
+{'loss': '0.9071', 'grad_norm': '6.817', 'learning_rate': '9.349e-06', 'epoch': '2.184'}                                         
+{'loss': '0.8822', 'grad_norm': '4.734', 'learning_rate': '9.061e-06', 'epoch': '2.24'}                                          
+{'loss': '0.8585', 'grad_norm': '7.158', 'learning_rate': '8.773e-06', 'epoch': '2.296'}                                         
+{'loss': '0.8626', 'grad_norm': '8.547', 'learning_rate': '8.485e-06', 'epoch': '2.352'}                                         
+{'loss': '0.9087', 'grad_norm': '6.66', 'learning_rate': '8.203e-06', 'epoch': '2.408'}                                          
+{'loss': '0.9064', 'grad_norm': '7.193', 'learning_rate': '7.915e-06', 'epoch': '2.464'}                                         
+{'loss': '0.8634', 'grad_norm': '7.106', 'learning_rate': '7.627e-06', 'epoch': '2.52'}                                          
+{'loss': '0.8918', 'grad_norm': '8.865', 'learning_rate': '7.339e-06', 'epoch': '2.576'}                                         
+{'loss': '0.8387', 'grad_norm': '8.314', 'learning_rate': '7.051e-06', 'epoch': '2.632'}                                         
+{'loss': '0.9194', 'grad_norm': '8.165', 'learning_rate': '6.763e-06', 'epoch': '2.688'}                                         
+{'loss': '0.8844', 'grad_norm': '6.893', 'learning_rate': '6.475e-06', 'epoch': '2.744'}                                         
+{'loss': '0.8978', 'grad_norm': '9.191', 'learning_rate': '6.187e-06', 'epoch': '2.8'}                                           
+{'loss': '0.8995', 'grad_norm': '7.974', 'learning_rate': '5.899e-06', 'epoch': '2.856'}                                         
+{'loss': '0.8447', 'grad_norm': '7.356', 'learning_rate': '5.611e-06', 'epoch': '2.912'}                                         
+{'loss': '0.895', 'grad_norm': '8.531', 'learning_rate': '5.323e-06', 'epoch': '2.968'}                                          
+{'eval_loss': '1.111', 'eval_accuracy': '0.4397', 'eval_f1': '0.4349', 'eval_precision': '0.4373', 'eval_recall': '0.4397', 'eval_runtime': '396.2', 'eval_samples_per_second': '9.014', 'eval_steps_per_second': '0.283', 'epoch': '3'}                           
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.95s/it]
+{'loss': '0.826', 'grad_norm': '10.17', 'learning_rate': '5.035e-06', 'epoch': '3.024'}                                          
+{'loss': '0.7926', 'grad_norm': '7.912', 'learning_rate': '4.747e-06', 'epoch': '3.08'}                                          
+{'loss': '0.7889', 'grad_norm': '7.603', 'learning_rate': '4.459e-06', 'epoch': '3.135'}                                         
+{'loss': '0.8034', 'grad_norm': '12.97', 'learning_rate': '4.171e-06', 'epoch': '3.191'}                                         
+{'loss': '0.7624', 'grad_norm': '12.22', 'learning_rate': '3.882e-06', 'epoch': '3.247'}                                         
+{'loss': '0.802', 'grad_norm': '13.74', 'learning_rate': '3.594e-06', 'epoch': '3.303'}                                          
+{'loss': '0.736', 'grad_norm': '9.934', 'learning_rate': '3.306e-06', 'epoch': '3.359'}                                          
+{'loss': '0.7557', 'grad_norm': '9.626', 'learning_rate': '3.018e-06', 'epoch': '3.415'}                                         
+{'loss': '0.7451', 'grad_norm': '10.89', 'learning_rate': '2.73e-06', 'epoch': '3.471'}                                          
+{'loss': '0.7719', 'grad_norm': '9.324', 'learning_rate': '2.442e-06', 'epoch': '3.527'}                                         
+{'loss': '0.722', 'grad_norm': '11.5', 'learning_rate': '2.154e-06', 'epoch': '3.583'}                                           
+{'loss': '0.7545', 'grad_norm': '13.77', 'learning_rate': '1.866e-06', 'epoch': '3.639'}                                         
+{'loss': '0.7204', 'grad_norm': '7.438', 'learning_rate': '1.578e-06', 'epoch': '3.695'}                                         
+{'loss': '0.7606', 'grad_norm': '12.22', 'learning_rate': '1.29e-06', 'epoch': '3.751'}                                          
+{'loss': '0.7475', 'grad_norm': '12.07', 'learning_rate': '1.002e-06', 'epoch': '3.807'}                                         
+{'loss': '0.7642', 'grad_norm': '9.186', 'learning_rate': '7.143e-07', 'epoch': '3.863'}                                         
+{'loss': '0.774', 'grad_norm': '13.88', 'learning_rate': '4.263e-07', 'epoch': '3.919'}                                          
+{'loss': '0.7677', 'grad_norm': '11.47', 'learning_rate': '1.382e-07', 'epoch': '3.975'}                                         
+{'eval_loss': '1.198', 'eval_accuracy': '0.4509', 'eval_f1': '0.4494', 'eval_precision': '0.4487', 'eval_recall': '0.4509', 'eval_runtime': '393.2', 'eval_samples_per_second': '9.081', 'eval_steps_per_second': '0.285', 'epoch': '4'}                           
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.68s/it]
+{'train_runtime': '2.128e+04', 'train_samples_per_second': '2.684', 'train_steps_per_second': '0.168', 'train_loss': '0.9284', 'epoch': '4'}
+100%|██████████████████████████████████████████████████████████████████████████████████████| 3572/3572 [5:54:42<00:00,  5.96s/it]
+
+Avaliando o melhor modelo no conjunto de teste...
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 112/112 [06:32<00:00,  3.50s/it]
+
+Resultados Finais: F1-Score = 0.4494 | Acurácia = 0.4509
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 112/112 [06:32<00:00,  3.50s/it]
+
+Relatório de Classificação Detalhado:
+              precision    recall  f1-score   support
+
+          C1       0.45      0.43      0.44      1078
+        C234       0.39      0.38      0.38      1230
+          C5       0.50      0.54      0.52      1263
+
+    accuracy                           0.45      3571
+   macro avg       0.45      0.45      0.45      3571
+weighted avg       0.45      0.45      0.45      3571
+
+
+
+==================================================
+        RELATÓRIO DE DIAGNÓSTICO DA BASE          
+==================================================
+
+--- Distribuição das Classes (Contagem) ---
+clarity
+c5      6316
+c234    6147
+c1      5389
+Name: count, dtype: int64
+
+--- Distribuição das Classes (Porcentagem) ---
+clarity
+c5      35.38%
+c234    34.43%
+c1      30.19%
+Name: proportion, dtype: str
+
+--- Validação Integridade das Classes/Labels ---
+✓ Todos os rótulos estão padronizados estritamente como: {'c5', 'c234', 'c1'}
+
+--- Verificação de Duplicatas e Conflitos ---
+• Linhas 100% idênticas: 0
+• Textos idênticos com rótulos divergentes: 0
+
+--- Análise de Sobreposição de Vocabulário Lexical (TF-IDF Bruto) ---
+
+• Comparação [C234 vs C1]:
+  - Similaridade de Cosseno (TF-IDF Bruto): 0.9939
+  - Vocabulário Compartilhado (Jaccard): 28.93% (23713 palavras em comum)
+  ⚠️ ALERTA: Altíssima sobreposição entre c234 e c1!
+
+• Comparação [C234 vs C5]:
+  - Similaridade de Cosseno (TF-IDF Bruto): 0.9907
+  - Vocabulário Compartilhado (Jaccard): 28.73% (25123 palavras em comum)
+  ⚠️ ALERTA: Altíssima sobreposição entre c234 e c5!
+
+• Comparação [C1 vs C5]:
+  - Similaridade de Cosseno (TF-IDF Bruto): 0.9798
+  - Vocabulário Compartilhado (Jaccard): 27.67% (22244 palavras em comum)
+  ⚠️ ALERTA: Altíssima sobreposição entre c1 e c5!
+
+--- Estatísticas de Tamanho das Sentenças ---
+• Caracteres:
+  - Mais curta: 5 | Mais longa: 12113
+  - Média: 1015.23 | Mediana: 723.0
+
+• Palavras:
+  - Menos palavras: 1 | Mais palavras: 1821
+  - Média: 148.28 | Mediana: 105.0
+
+--- Análise de Textos Curtos e Em Branco (< 5 palavras) ---
+• Textos NULOS (NaN): 0
+• Textos em BRANCO: 0
+• Quantidade de textos com menos de 5 palavras: 53
+
+--- Verificação de Ruídos de Formatação ---
+• Linhas não-string originais: 0
+• Múltiplos espaços seguidos: 0
+• Tags HTML: 0
+• Múltiplas quebras de linha: 0
+
+Carregando modelo de linguagem spaCy (300D)...
+
+==================================================
+  PROCESSAMENTO DE EMBEDDINGS PONDERADOS (300D)   
+==================================================
+1. Ajustando TfidfVectorizer global sobre todas as linhas...
+✓ Vocabulário do TF-IDF: 25110 palavras.
+2. Gerando embeddings ponderados por TF-IDF para cada linha...
+
+==================================================
+   MÉTRICAS DE SOBREPOSIÇÃO NOS EMBEDDINGS 300D  
+==================================================
+
+1. Similaridade de Cosseno entre os Centroides (Embeddings Ponderados):
+  • C234 vs C1: 0.9994
+  • C234 vs C5: 0.9983
+  • C1 vs C5: 0.9973
+
+2. Pureza de Vizinhança (k-NN, k=10): 36.88%
+   (Mede a % de vizinhos mais próximos que compartilham a mesma classe).
+
+==================================================
+    CÁLCULO DAS MÉTRICAS DE DIAGNÓSTICO E DISTÂNCIA 
+==================================================
+
+[Métrica 1] Distância de Mahalanobis (Com PCA = 20D):
+  • C234 vs C1: 0.2486
+  • C234 vs C5: 0.3054
+  • C1 vs C5: 0.4767
+
+[Métrica 2] Divergência de Jensen-Shannon (JS) e KL (TF-IDF):
+  • C234 vs C1 -> JS Divergence: 0.0039 | KL Divergence: 0.0160
+  • C234 vs C5 -> JS Divergence: 0.0051 | KL Divergence: 0.0206
+  • C1 vs C5 -> JS Divergence: 0.0115 | KL Divergence: 0.0468
+
+[Métrica 4] Coeficiente de Overlap de Vocabulário:
+  • C234 vs C1: 0.4954 (49.54%)
+  • C234 vs C5: 0.4587 (45.87%)
+  • C1 vs C5: 0.4647 (46.47%)
+
+[Métrica 5] Riqueza Lexical Móvel (MATTR - Janela 50 palavras):
+  • Classe C1: 0.8562
+  • Classe C234: 0.8506
+  • Classe C5: 0.8560
+
+[Métrica 6 & 7] Extraindo POS Tags via spaCy...
+
+[Métrica 6] Similaridade de Cosseno sobre N-gramas de POS (1-3):
+  • C234 vs C1: 0.9997
+  • C234 vs C5: 0.9988
+  • C1 vs C5: 0.9981
+
+[Métrica 7] Entropia de Shannon sobre a Distribuição de POS:
+  • Classe C1: 3.2164 bits
+  • Classe C234: 3.2117 bits
+  • Classe C5: 3.2052 bits
+
+[Métrica 8] Densidade Média de Pontuação por Caractere:
+  • Classe C1: 0.0410
+  • Classe C234: 0.0408
+  • Classe C5: 0.0411
+
+[Métrica 9] Densidade Média de Bigramas Repetidos por Texto:
+  • Classe C1: 0.0466
+  • Classe C234: 0.0505
+  • Classe C5: 0.0436
+
+[Métrica 10] Métricas Globais de Agrupamento (Embeddings 300D):
+  • Coeficiente de Silhueta (Cosseno) [-1 a 1]: -0.0151
+  • Índice Davies-Bouldin (Menor é melhor)   : 33.7730
+
+Reduzindo dimensionalidade usando TSNE...
+
+2026-09-27 14:23:03,830 [INFO] Época 1/5 - Loss: 1.0695 | Tempo: 9337.27s
+2026-09-27 18:11:32,623 [INFO] Época 2/5 - Loss: 1.0041 | Tempo: 13708.79s
+2026-09-27 20:47:25,381 [INFO] Época 3/5 - Loss: 0.8880 | Tempo: 9352.76s
+2026-09-27 23:22:56,013 [INFO] Época 4/5 - Loss: 0.7265 | Tempo: 9330.63s
+2026-09-28 02:07:52,456 [INFO] Época 5/5 - Loss: 0.5462 | Tempo: 9896.44s
+2026-09-28 08:48:15,091 [INFO] Dataset Carregado | Treino=14465 | Validação=3617 | Teste=2010
+2026-09-28 08:48:15,092 [INFO] 
+=== EXECUÇÃO 1: SVD (100) + LightGBM Direto ===
+2026-09-28 08:54:52,439 [INFO] LGBM -> Acc: 0.4299 | F1: 0.4293 | Kappa: 0.2512 | MAE: 0.7108 | Vazamento: 509 | Tempo: 397.31s
+2026-09-28 08:54:52,440 [INFO] 
+=== EXECUÇÃO 2: BERTimbau Fine-Tuning (5 Épocas - Descongelado) ===
+2026-09-28 08:54:52,440 [INFO] Iniciando Fine-Tuning do BERTimbau no dispositivo: cuda
+2026-09-28 08:54:53,088 [INFO] Pré-tokenizando dados de treino e validação em batch...
+22026-09-28 09:27:15,391 [INFO] Época 1/5 - Loss: 1.0655 | Tempo: 1934.74s
+2026-09-28 09:59:33,871 [INFO] Época 2/5 - Loss: 1.0074 | Tempo: 1938.48s
+2026-09-28 10:31:10,368 [INFO] Época 3/5 - Loss: 0.9119 | Tempo: 1896.50s
+2026-09-28 11:02:48,096 [INFO] Época 4/5 - Loss: 0.7580 | Tempo: 1897.73s
+2026-09-28 11:34:24,599 [INFO] Época 5/5 - Loss: 0.5864 | Tempo: 1896.50s
+2026-09-28 11:40:00,218 [INFO] Dataset Carregado | Treino=14465 | Validação=3617 | Teste=2010
+2026-09-28 11:40:00,218 [INFO] 
+=== EXECUÇÃO 1: SVD (100) + LightGBM Direto ===
+2026-09-28 11:46:28,524 [INFO] LGBM -> Acc: 0.4299 | F1: 0.4293 | Kappa: 0.2512 | MAE: 0.7108 | Vazamento: 509 | Tempo: 388.27s
+2026-09-28 11:46:28,524 [INFO] 
+=== EXECUÇÃO 2: BERTimbau Fine-Tuning (5 Épocas - Descongelado) ===
+2026-09-28 11:46:28,525 [INFO] Iniciando Fine-Tuning do BERTimbau no dispositivo: cuda
+2026-09-28 11:46:29,232 [INFO] Pré-tokenizando dados de treino e validação em batch...
+2026-09-28 12:28:30,246 [INFO] Época 1/5 - Loss: 1.0685 | Tempo: 2513.54s
+2026-09-28 13:10:21,305 [INFO] Época 2/5 - Loss: 1.0049 | Tempo: 2511.06s
+2026-09-28 13:52:12,362 [INFO] Época 3/5 - Loss: 0.9061 | Tempo: 2511.06s
+2026-09-28 14:34:13,934 [INFO] Época 4/5 - Loss: 0.7418 | Tempo: 2521.57s
+2026-09-28 15:16:24,134 [INFO] Época 5/5 - Loss: 0.5710 | Tempo: 2530.20s
+2026-09-28 15:34:11,011 [INFO] Dataset Carregado | Treino=16073 | Validação=4019
+2026-09-28 15:34:11,012 [INFO] 
+=== EXECUÇÃO 1: SVD (100) + LightGBM Direto ===
+2026-09-28 15:34:11,012 [INFO] Extraindo novos embeddings com BERTimbau para o LightGBM...
+26-09-28 15:41:19,574 [INFO] Embeddings salvos em disco para execuções futuras!
+2026-09-28 15:41:22,485 [INFO] LGBM -> Acc: 0.4262 | F1: 0.4231 | Kappa: 0.2037 | MAE: 0.7387 | Vazamento: 663 | Tempo: 431.43s
+2026-09-28 15:41:22,485 [INFO] 
+=== EXECUÇÃO 2: BERTimbau Fine-Tuning (5 Épocas - Descongelado) ===
+2026-09-28 15:41:22,485 [INFO] Iniciando Fine-Tuning do BERTimbau no dispositivo: cuda
+2026-09-28 16:28:11,622 [INFO] Época 1/5 [2722.1s] - Loss: 1.0677 | Val Acc: 0.4344 | Val F1: 0.3591 | Val Kappa: 0.2517 | Val MAE: 0.7840
+2026-09-28 16:28:15,303 [INFO] --> Melhor modelo salvo em 'bertimbau_model.pt' (F1: 0.3591)
+2026-09-28 17:14:34,241 [INFO] Época 2/5 [2700.6s] - Loss: 1.0121 | Val Acc: 0.4439 | Val F1: 0.4239 | Val Kappa: 0.2408 | Val MAE: 0.6733
+2026-09-28 17:14:37,114 [INFO] --> Melhor modelo salvo em 'bertimbau_model.pt' (F1: 0.4239)
+2026-09-28 18:00:56,037 [INFO] Época 3/5 [2700.6s] - Loss: 0.9372 | Val Acc: 0.4446 | Val F1: 0.4362 | Val Kappa: 0.2479 | Val MAE: 0.6731
+2026-09-28 18:00:58,916 [INFO] --> Melhor modelo salvo em 'bertimbau_model.pt' (F1: 0.4362)
+2026-09-28 18:47:17,451 [INFO] Época 4/5 [2700.2s] - Loss: 0.8060 | Val Acc: 0.4292 | Val F1: 0.4273 | Val Kappa: 0.2327 | Val MAE: 0.7265
+2026-09-28 19:33:36,836 [INFO] Época 5/5 [2701.1s] - Loss: 0.6354 | Val Acc: 0.4379 | Val F1: 0.4319 | Val Kappa: 0.2370 | Val MAE: 0.7233
+2026-09-28 19:34:58,088 [INFO] BERT FT -> Acc: 0.0000 | F1: 0.0000 | Kappa: 0.0000 | MAE: 1.0274 | Vazamento: 0 | Tempo: 14015.44s
+2026-09-29 09:19:55,022 [INFO] Dataset Carregado | Treino=16073 | Validação=4019
+2026-09-29 09:19:55,040 [INFO] 
+=== EXECUÇÃO 1: SVD (100) + LightGBM Direto ===
+2026-09-29 09:19:55,058 [INFO] Carregando embeddings pré-calculados do disco (.npy)...
+2026-09-29 09:19:58,021 [INFO] LGBM -> Acc: 0.4262 | F1: 0.4231 | Kappa: 0.2037 | MAE: 0.7387 | Vazamento: 663 | Tempo: 2.92s
+2026-09-29 09:19:58,021 [INFO] 
+=== EXECUÇÃO 2: BERTimbau Fine-Tuning (5 Épocas - Descongelado) ===
+2026-09-29 09:19:58,236 [INFO] Iniciando Fine-Tuning do BERTimbau no dispositivo: cuda
+2026-09-29 09:20:30,221 [INFO] Checkpoint 'bertimbau_model.pt' encontrado! Carregando pesos salvos sem re-treinar...
+2026-09-29 09:22:07,273 [INFO] BERT FT -> Acc: 0.4446 | F1: 0.4362 | Kappa: 0.2479 | MAE: 0.6731 | Vazamento: 473 | Tempo: 129.22s
+2026-09-29 09:32:28,749 [INFO] Dataset Carregado | Treino=16073 | Validação=4019
+2026-09-29 09:32:28,750 [INFO] 
+=== EXECUÇÃO 1: SVD (100) + LightGBM Direto ===
+2026-09-29 09:32:28,750 [INFO] Carregando embeddings pré-calculados do disco (.npy)...
+2026-09-29 09:32:30,520 [INFO] LGBM -> Acc: 0.4262 | F1: 0.4231 | Kappa: 0.2037 | MAE: 0.7387 | Vazamento: 663 | Tempo: 1.74s
+2026-09-29 09:32:30,521 [INFO] 
+=== EXECUÇÃO 2: BERTimbau Fine-Tuning (5 Épocas - Descongelado) ===
+2026-09-29 09:32:30,556 [INFO] Iniciando Fine-Tuning do BERTimbau no dispositivo: cuda
+2026-09-29 09:37:10,310 [INFO] Dataset Carregado | Treino=16073 | Validação=4019
+2026-09-29 09:37:10,311 [INFO] 
+=== EXECUÇÃO 1: SVD (100) + LightGBM Direto ===
+2026-09-29 09:37:10,311 [INFO] Carregando embeddings pré-calculados do disco (.npy)...
+2026-09-29 09:37:12,308 [INFO] LGBM -> Acc: 0.4262 | F1: 0.4231 | Kappa: 0.2037 | MAE: 0.7387 | Vazamento: 663 | Tempo: 1.97s
+2026-09-29 09:37:12,308 [INFO] 
+=== EXECUÇÃO 2: BERTimbau Fine-Tuning (5 Épocas - Descongelado) ===
+2026-09-29 09:37:12,309 [INFO] Iniciando Fine-Tuning do BERTimbau no dispositivo: cpu
+2026-09-29 09:37:21,758 [INFO] Checkpoint 'bertimbau_model.pt' encontrado! Carregando pesos salvos sem re-treinar...
+2026-09-29 09:37:21,851 [INFO] HTTP Request: HEAD https://huggingface.co/neuralmind/bert-base-portuguese-cased/resolve/refs%2Fpr%2F5/model.safetensors "HTTP/1.1 302 Found"
+2026-09-29 09:44:24,926 [INFO] BERT FT -> Acc: 0.3926 | F1: 0.3676 | Kappa: 0.1678 | MAE: 0.8306 | Vazamento: 897 | Tempo: 432.59s
+
+
+# parametros utilizados:
+    # split 70/30 e 80/20
+    # vocabulário [5000, 10000, 15000, 20000, 25000, 30000, 40000, 50000]
+    # ngramas palavras [(1, 2), (1, 3)]
+    # ngramas characteres [(3, 7), (5, 9)]
+    # filtros ON/OFF
+    # sublinear TF ON/OFF
+    # selecao de atributos: kbest, select percentile, truncated svd (rfe e arvore iam demorar de mais)
+    
+# ================================================================================
+# MELHOR RESULTADO GLOBAL: vocab_50K_ngrm_1_3_palavra_filtros_off_sublinear_true_split_80_20_selectpercentile
+# ================================================================================
+# =============================================
+#       RELATÓRIO DE MÉTRICAS DO MODELO       
+# =============================================
+# 1. F1-Score (Macro):  0.4470
+# 2. Acurácia:          0.4501
+# 3. Cohen's Kappa:     0.1752
+# 4. ROC-AUC (OvR):     0.6298
+# 5. Log Loss:          1.0457
+# =============================================
+
+
+# --- Primeiras 5 linhas da base ---
+#                                            resp_text clarity
+# 0   Prezado(a) Senhor(a),   Esclarecemos que o Se...      c5
+# 1   Prezada cidadã,  As informações sobre óbitos ...      c1
+# 2   Prezado Senhor Julio,  A Ouvidoria-Geral da P...      c1
+# 3   Prezado(a) Senhor(a),   Esclarecemos que o Se...    c234
+# 4   Senhor, O Serviço de Informações ao Cidadão d...    c234
+
+# --- Distribuição das Classes (Contagem) ---
+# clarity
+# c5      6892
+# c234    6853
+# c1      6347
+# Name: count, dtype: int64
+
+# --- Distribuição das Classes (Porcentagem) ---
+# clarity
+# c5       34.3%
+# c234    34.11%
+# c1      31.59%
+# Name: proportion, dtype: str
+
+# --- Estatísticas de Tamanho das Sentenças ---
+# • Caracteres:
+#   - Mais curta: 7 caracteres
+#   - Mais longa: 12125 caracteres
+#   - Média:      1000.38 caracteres
+#   - Mediana:    709.0 caracteres
+
+# • Palavras:
+#   - Menos palavras: 1 palavras
+#   - Mais palavras:  1821 palavras
+#   - Média:          144.27 palavras
+#   - Mediana:        101.0 palavras
+
+
+2026-09-26 19:47:22,251 [INFO] Dataset carregado: Treino=14465, Validação=3617, Teste=2010
+2026-09-26 19:47:22,252 [INFO] --- Extraindo Embeddings do BERTimbau ---
+2026-09-26 19:47:22,253 [INFO] Carregando BERTimbau no dispositivo: cpu
+========== INICIANDO BATERIA DE EXPERIMENTOS ==========
+2026-09-26 22:49:47,128 [INFO] Total de combinações a testar: 24
+2026-09-26 22:49:47,129 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:49:47,131 [INFO] PROGRESSO: [1/24] (4.17%) | Faltam: 23
+2026-09-26 22:49:47,132 [INFO] TESTANDO: FS=none | Modo=direta | M1=LogReg | M2=None
+2026-09-26 22:49:47,132 [INFO] ------------------------------------------------------------
+2026-09-26 22:50:00,815 [INFO] RESULTADO [1/24]: Acc=0.4247 | F1=0.4232 | Kappa=0.2259 | MAE=0.7313 | Vazamento=564 | Tempo=13.06s
+2026-09-26 22:50:00,816 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:50:00,816 [INFO] PROGRESSO: [2/24] (8.33%) | Faltam: 22
+2026-09-26 22:50:00,816 [INFO] TESTANDO: FS=none | Modo=direta | M1=LGBM | M2=None
+2026-09-26 22:50:00,816 [INFO] ------------------------------------------------------------
+2026-09-26 22:50:16,722 [INFO] RESULTADO [2/24]: Acc=0.4288 | F1=0.4279 | Kappa=0.2395 | MAE=0.7136 | Vazamento=515 | Tempo=15.84s
+2026-09-26 22:50:16,722 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:50:16,723 [INFO] PROGRESSO: [3/24] (12.50%) | Faltam: 21
+2026-09-26 22:50:16,723 [INFO] TESTANDO: FS=none | Modo=cascata_binaria | M1=LogReg | M2=LogReg
+2026-09-26 22:50:16,723 [INFO] ------------------------------------------------------------
+2026-09-26 22:50:21,249 [INFO] RESULTADO [3/24]: Acc=0.4031 | F1=0.3970 | Kappa=0.1868 | MAE=0.7335 | Vazamento=494 | Tempo=4.39s
+2026-09-26 22:50:21,249 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:50:21,249 [INFO] PROGRESSO: [4/24] (16.67%) | Faltam: 20
+2026-09-26 22:50:21,249 [INFO] TESTANDO: FS=none | Modo=cascata_binaria | M1=LogReg | M2=LGBM
+2026-09-26 22:50:21,249 [INFO] ------------------------------------------------------------
+2026-09-26 22:50:41,258 [INFO] RESULTADO [4/24]: Acc=0.4014 | F1=0.3884 | Kappa=0.1826 | MAE=0.7174 | Vazamento=430 | Tempo=19.88s
+2026-09-26 22:50:41,258 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:50:41,258 [INFO] PROGRESSO: [5/24] (20.83%) | Faltam: 19
+2026-09-26 22:50:41,258 [INFO] TESTANDO: FS=none | Modo=cascata_binaria | M1=LGBM | M2=LogReg
+2026-09-26 22:50:41,258 [INFO] ------------------------------------------------------------
+2026-09-26 22:50:49,757 [INFO] RESULTADO [5/24]: Acc=0.3948 | F1=0.3743 | Kappa=0.1714 | MAE=0.7293 | Vazamento=449 | Tempo=8.47s
+2026-09-26 22:50:49,757 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:50:49,757 [INFO] PROGRESSO: [6/24] (25.00%) | Faltam: 18
+2026-09-26 22:50:49,758 [INFO] TESTANDO: FS=none | Modo=cascata_binaria | M1=LGBM | M2=LGBM
+2026-09-26 22:50:49,758 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:12,143 [INFO] RESULTADO [6/24]: Acc=0.3984 | F1=0.3797 | Kappa=0.1771 | MAE=0.7174 | Vazamento=419 | Tempo=22.33s
+2026-09-26 22:51:12,143 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:12,143 [INFO] PROGRESSO: [7/24] (29.17%) | Faltam: 17
+2026-09-26 22:51:12,144 [INFO] TESTANDO: FS=kbest | Modo=direta | M1=LogReg | M2=None
+2026-09-26 22:51:12,144 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:12,725 [INFO] RESULTADO [7/24]: Acc=0.4205 | F1=0.4177 | Kappa=0.2003 | MAE=0.7487 | Vazamento=612 | Tempo=0.54s
+2026-09-26 22:51:12,725 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:12,725 [INFO] PROGRESSO: [8/24] (33.33%) | Faltam: 16
+2026-09-26 22:51:12,726 [INFO] TESTANDO: FS=kbest | Modo=direta | M1=LGBM | M2=None
+2026-09-26 22:51:12,726 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:14,939 [INFO] RESULTADO [8/24]: Acc=0.4205 | F1=0.4187 | Kappa=0.2162 | MAE=0.7310 | Vazamento=548 | Tempo=2.15s
+2026-09-26 22:51:14,939 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:14,939 [INFO] PROGRESSO: [9/24] (37.50%) | Faltam: 15
+2026-09-26 22:51:14,939 [INFO] TESTANDO: FS=kbest | Modo=cascata_binaria | M1=LogReg | M2=LogReg
+2026-09-26 22:51:14,939 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:16,062 [INFO] RESULTADO [9/24]: Acc=0.4006 | F1=0.3729 | Kappa=0.1445 | MAE=0.7310 | Vazamento=476 | Tempo=0.98s
+2026-09-26 22:51:16,063 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:16,063 [INFO] PROGRESSO: [10/24] (41.67%) | Faltam: 14
+2026-09-26 22:51:16,063 [INFO] TESTANDO: FS=kbest | Modo=cascata_binaria | M1=LogReg | M2=LGBM
+2026-09-26 22:51:16,063 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:25,214 [INFO] RESULTADO [10/24]: Acc=0.3865 | F1=0.3553 | Kappa=0.1468 | MAE=0.7324 | Vazamento=430 | Tempo=9.10s
+2026-09-26 22:51:25,214 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:25,214 [INFO] PROGRESSO: [11/24] (45.83%) | Faltam: 13
+2026-09-26 22:51:25,214 [INFO] TESTANDO: FS=kbest | Modo=cascata_binaria | M1=LGBM | M2=LogReg
+2026-09-26 22:51:25,214 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:26,977 [INFO] RESULTADO [11/24]: Acc=0.4014 | F1=0.3790 | Kappa=0.1729 | MAE=0.7169 | Vazamento=428 | Tempo=1.74s
+2026-09-26 22:51:26,978 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:26,978 [INFO] PROGRESSO: [12/24] (50.00%) | Faltam: 12
+2026-09-26 22:51:26,978 [INFO] TESTANDO: FS=kbest | Modo=cascata_binaria | M1=LGBM | M2=LGBM
+2026-09-26 22:51:26,978 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:42,593 [INFO] RESULTADO [12/24]: Acc=0.3895 | F1=0.3686 | Kappa=0.1709 | MAE=0.7246 | Vazamento=413 | Tempo=15.58s
+2026-09-26 22:51:42,593 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:42,593 [INFO] PROGRESSO: [13/24] (54.17%) | Faltam: 11
+2026-09-26 22:51:42,594 [INFO] TESTANDO: FS=percentile | Modo=direta | M1=LogReg | M2=None
+2026-09-26 22:51:42,594 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:47,153 [INFO] RESULTADO [13/24]: Acc=0.4230 | F1=0.4208 | Kappa=0.2108 | MAE=0.7412 | Vazamento=594 | Tempo=4.51s
+2026-09-26 22:51:47,153 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:47,153 [INFO] PROGRESSO: [14/24] (58.33%) | Faltam: 10
+2026-09-26 22:51:47,153 [INFO] TESTANDO: FS=percentile | Modo=direta | M1=LGBM | M2=None
+2026-09-26 22:51:47,153 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:56,233 [INFO] RESULTADO [14/24]: Acc=0.4202 | F1=0.4194 | Kappa=0.2128 | MAE=0.7318 | Vazamento=550 | Tempo=8.98s
+2026-09-26 22:51:56,233 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:56,234 [INFO] PROGRESSO: [15/24] (62.50%) | Faltam: 9
+2026-09-26 22:51:56,234 [INFO] TESTANDO: FS=percentile | Modo=cascata_binaria | M1=LogReg | M2=LogReg
+2026-09-26 22:51:56,234 [INFO] ------------------------------------------------------------
+2026-09-26 22:51:58,577 [INFO] RESULTADO [15/24]: Acc=0.4061 | F1=0.3946 | Kappa=0.1841 | MAE=0.7260 | Vazamento=478 | Tempo=2.31s
+2026-09-26 22:51:58,577 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:51:58,577 [INFO] PROGRESSO: [16/24] (66.67%) | Faltam: 8
+2026-09-26 22:51:58,577 [INFO] TESTANDO: FS=percentile | Modo=cascata_binaria | M1=LogReg | M2=LGBM
+2026-09-26 22:51:58,578 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:11,947 [INFO] RESULTADO [16/24]: Acc=0.4106 | F1=0.3927 | Kappa=0.1813 | MAE=0.7092 | Vazamento=433 | Tempo=13.32s
+2026-09-26 22:52:11,947 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:11,947 [INFO] PROGRESSO: [17/24] (70.83%) | Faltam: 7
+2026-09-26 22:52:11,948 [INFO] TESTANDO: FS=percentile | Modo=cascata_binaria | M1=LGBM | M2=LogReg
+2026-09-26 22:52:11,948 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:16,995 [INFO] RESULTADO [17/24]: Acc=0.4017 | F1=0.3821 | Kappa=0.1787 | MAE=0.7197 | Vazamento=439 | Tempo=5.02s
+2026-09-26 22:52:16,995 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:16,995 [INFO] PROGRESSO: [18/24] (75.00%) | Faltam: 6
+2026-09-26 22:52:16,996 [INFO] TESTANDO: FS=percentile | Modo=cascata_binaria | M1=LGBM | M2=LGBM
+2026-09-26 22:52:16,996 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:33,943 [INFO] RESULTADO [18/24]: Acc=0.4025 | F1=0.3830 | Kappa=0.1703 | MAE=0.7180 | Vazamento=436 | Tempo=16.90s
+2026-09-26 22:52:33,943 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:33,943 [INFO] PROGRESSO: [19/24] (79.17%) | Faltam: 5
+2026-09-26 22:52:33,944 [INFO] TESTANDO: FS=svd | Modo=direta | M1=LogReg | M2=None
+2026-09-26 22:52:33,944 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:35,020 [INFO] RESULTADO [19/24]: Acc=0.4352 | F1=0.4321 | Kappa=0.2307 | MAE=0.7280 | Vazamento=590 | Tempo=1.04s
+2026-09-26 22:52:35,020 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:35,020 [INFO] PROGRESSO: [20/24] (83.33%) | Faltam: 4
+2026-09-26 22:52:35,021 [INFO] TESTANDO: FS=svd | Modo=direta | M1=LGBM | M2=None
+2026-09-26 22:52:35,021 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:37,660 [INFO] RESULTADO [20/24]: Acc=0.4365 | F1=0.4347 | Kappa=0.2295 | MAE=0.7139 | Vazamento=544 | Tempo=2.58s
+2026-09-26 22:52:37,660 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:37,660 [INFO] PROGRESSO: [21/24] (87.50%) | Faltam: 3
+2026-09-26 22:52:37,661 [INFO] TESTANDO: FS=svd | Modo=cascata_binaria | M1=LogReg | M2=LogReg
+2026-09-26 22:52:37,661 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:39,051 [INFO] RESULTADO [21/24]: Acc=0.4059 | F1=0.3821 | Kappa=0.1753 | MAE=0.7161 | Vazamento=441 | Tempo=1.36s
+2026-09-26 22:52:39,051 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:39,051 [INFO] PROGRESSO: [22/24] (91.67%) | Faltam: 2
+2026-09-26 22:52:39,051 [INFO] TESTANDO: FS=svd | Modo=cascata_binaria | M1=LogReg | M2=LGBM
+2026-09-26 22:52:39,052 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:49,159 [INFO] RESULTADO [22/24]: Acc=0.3989 | F1=0.3716 | Kappa=0.1613 | MAE=0.7213 | Vazamento=435 | Tempo=10.07s
+2026-09-26 22:52:49,159 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:49,160 [INFO] PROGRESSO: [23/24] (95.83%) | Faltam: 1
+2026-09-26 22:52:49,160 [INFO] TESTANDO: FS=svd | Modo=cascata_binaria | M1=LGBM | M2=LogReg
+2026-09-26 22:52:49,160 [INFO] ------------------------------------------------------------
+2026-09-26 22:52:51,363 [INFO] RESULTADO [23/24]: Acc=0.4078 | F1=0.3839 | Kappa=0.1797 | MAE=0.7089 | Vazamento=422 | Tempo=2.17s
+2026-09-26 22:52:51,363 [INFO] 
+------------------------------------------------------------
+2026-09-26 22:52:51,364 [INFO] PROGRESSO: [24/24] (100.00%) | Faltam: 0
+2026-09-26 22:52:51,364 [INFO] TESTANDO: FS=svd | Modo=cascata_binaria | M1=LGBM | M2=LGBM
+2026-09-26 22:52:51,364 [INFO] ------------------------------------------------------------
+2026-09-26 22:53:01,635 [INFO] RESULTADO [24/24]: Acc=0.4025 | F1=0.3811 | Kappa=0.1694 | MAE=0.7177 | Vazamento=435 | Tempo=10.24s
+2026-09-26 22:53:01,814 [INFO] 
+========== BATERIA CONCLUÍDA COM SUCESSO ==========
+2026-09-26 22:53:01,815 [INFO] Resultados salvos em 'resultados_experimentos.csv'
+
+
+Analise dos LOGS do gemini
+
+
+Bateria 1: Comparativo de Seleção de Atributos e Modelos Base
+Teste
+Estratégia de Seleção
+Modelo Utilizado
+Tempo (s)
+F1-Score
+Acurácia
+1/9
+none
+Naive Bayes
+0.24
+0.3368
+0.3394
+2/9
+none
+Logistic Regression
+2.88
+0.3356
+0.3420
+3/9
+none
+LightGBM
+6.35
+0.3113
+0.3178
+4/9
+mutual_info
+Naive Bayes
+20.66
+0.3348
+0.3431
+5/9
+mutual_info
+Logistic Regression
+22.83
+0.3360
+0.3542
+6/9
+mutual_info
+LightGBM
+22.79
+0.3238
+0.3330
+7/9
+variance
+Naive Bayes
+0.22
+0.3368
+0.3394
+8/9
+variance
+Logistic Regression
+0.15
+0.3356
+0.3420
+9/9
+variance
+LightGBM
+6.51
+0.3113
+0.3178
+
+
+Configuração Vencedora (Bateria 1): Seleção = none | Modelo = naive_bayes (F1-Score: 0.3368).
+Bateria 2: Estratégias Hierárquicas e de Refinamento
+Teste
+Método Arquitetural
+Seleção de Atributos
+Modelo
+Tempo (s)
+F1-Score
+Acurácia
+1/18
+top_down
+none
+Naive Bayes
+0.96
+0.3951
+0.4053
+2/18
+top_down
+none
+Logistic Regression
+1.00
+0.4233
+0.4268
+3/18
+top_down
+none
+LightGBM
+16.88
+0.4279
+0.4292
+4/18
+top_down
+mutual_info
+Naive Bayes
+21.42
+0.3913
+0.3986
+5/18
+top_down
+mutual_info
+Logistic Regression
+21.21
+0.4082
+0.4143
+6/18
+top_down
+mutual_info
+LightGBM
+35.15
+0.3996
+0.4021
+7/18
+top_down
+variance
+Naive Bayes
+0.82
+0.2919
+0.3572
+8/18
+top_down
+variance
+Logistic Regression
+0.74
+0.2922
+0.3574
+9/18
+top_down
+variance
+LightGBM
+12.86
+0.3308
+0.3447
+10/18
+5class_refinement
+none
+Naive Bayes
+0.44
+0.3981
+0.3999
+11/18
+5class_refinement
+none
+Logistic Regression
+6.47
+0.3269
+0.4122
+12/18
+5class_refinement
+none
+LightGBM
+10.48
+0.3565
+0.4215
+13/18
+5class_refinement
+mutual_info
+Naive Bayes
+20.83
+0.3886
+0.3984
+14/18
+5class_refinement
+mutual_info
+Logistic Regression
+21.59
+0.3165
+0.4015
+15/18
+5class_refinement
+mutual_info
+LightGBM
+24.92
+0.3429
+0.4090
+16/18
+5class_refinement
+variance
+Naive Bayes
+0.10
+0.1822
+0.3508
+17/18
+5class_refinement
+variance
+Logistic Regression
+0.11
+0.1822
+0.3508
+18/18
+5class_refinement
+variance
+LightGBM
+1.19
+0.2575
+0.3354
+
+
+Configuração Vencedora (Bateria 2): Método = top_down | Seleção = none | Modelo = lightgbm (F1-Score: 0.4279).
+Bateria 3: Tipos de Vetorização vs. Estratégia de Classificação Multi-classe
+Teste
+Tipo de Vetorizador
+Estratégia
+Modelo Utilizado
+Tempo (s)
+F1-Score
+Acurácia
+1/18
+word_ngram
+direct
+Naive Bayes
+6.31
+0.4029
+0.4225
+2/18
+word_ngram
+direct
+Logistic Regression
+6.87
+0.4268
+0.4300
+3/18
+word_ngram
+direct
+LightGBM
+28.89
+0.4299
+0.4326
+4/18
+word_ngram
+ovr
+Naive Bayes
+7.69
+0.3956
+0.4185
+5/18
+word_ngram
+ovr
+Logistic Regression
+6.60
+0.4288
+0.4326
+6/18
+word_ngram
+ovr
+LightGBM
+30.82
+0.4303
+0.4334
+7/18
+char_ngram
+direct
+Naive Bayes
+30.99
+0.4174
+0.4257
+8/18
+char_ngram
+direct
+Logistic Regression
+35.63
+0.4241
+0.4273
+9/18
+char_ngram
+direct
+LightGBM
+107.85
+0.4318
+0.4342
+10/18
+char_ngram
+ovr
+Naive Bayes
+31.45
+0.4138
+0.4247
+11/18
+char_ngram
+ovr
+Logistic Regression
+32.98
+0.4255
+0.4286
+12/18
+char_ngram
+ovr
+LightGBM
+109.64
+0.4326
+0.4358
+13/18
+hybrid
+direct
+Naive Bayes
+6.25
+0.3938
+0.4156
+14/18
+hybrid
+direct
+Logistic Regression
+7.33
+0.4339
+0.4377
+15/18
+hybrid
+direct
+LightGBM
+24.71
+0.4370
+0.4403
+16/18
+hybrid
+ovr
+Naive Bayes
+6.37
+0.3928
+0.4167
+17/18
+hybrid
+ovr
+Logistic Regression
+6.56
+0.4347
+0.4398
+18/18
+hybrid
+ovr
+LightGBM
+25.94
+0.4353
+0.4395
+
+
+Configuração Vencedora (Bateria 3): Vetorizador = hybrid | Estratégia = direct | Modelo = lightgbm (F1-Score: 0.4370).
+Bateria 4: Modelos Avançados e Ensembles Complexos
+Modelo / Ensemble
+Tempo (s)
+F1-Score
+Acurácia
+Logistic Regression (Otimizada)
+47.69
+0.4246
+0.4252
+Extra Trees Classifier
+139.01
+0.4178
+0.4308
+LightGBM Otimizado
+618.14
+0.4425
+0.4446
+Voting Soft Ensemble (LR + ET + RF + LGBM)
+907.62
+0.4348
+0.4374
+Stacking Classifier (Meta-Learner: LR)
+3322.50
+0.4398
+0.4446
+
+Bateria 5: Classificadores sobre Embeddings Semânticos
+Modelo
+Tempo (s)
+F1-Score
+Acurácia
+Linear SVM (LinearSVC)
+10.88
+0.4215
+0.4265
+Calibrated SVM (com probabilidades)
+49.84
+0.4183
+0.4276
+SGD Classifier (Modified Huber Loss)
+5.57
+0.4269
+0.4271
+HistGradientBoosting
+8.51
+0.4269
+0.4300
+
+Bateria 6: Redução SVD (100D) e Arquiteturas em Cascata vs. Direta
+Teste
+Seleção (FS)
+Modo
+Modelo 1 (M1)
+Modelo 2 (M2)
+Tempo (s)
+F1-Score
+Acurácia
+1/24
+none
+Direta
+LogReg
+—
+13.06
+0.4232
+0.4247
+2/24
+none
+Direta
+LGBM
+—
+15.84
+0.4279
+0.4288
+3/24
+none
+Cascata
+LogReg
+LogReg
+4.39
+0.3970
+0.4031
+4/24
+none
+Cascata
+LogReg
+LGBM
+19.88
+0.3884
+0.4014
+5/24
+none
+Cascata
+LGBM
+LogReg
+8.47
+0.3743
+0.3948
+6/24
+none
+Cascata
+LGBM
+LGBM
+22.33
+0.3797
+0.3984
+7/24
+kbest
+Direta
+LogReg
+—
+0.54
+0.4177
+0.4205
+8/24
+kbest
+Direta
+LGBM
+—
+2.15
+0.4187
+0.4205
+9/24
+kbest
+Cascata
+LogReg
+LogReg
+0.98
+0.3729
+0.4006
+10/24
+kbest
+Cascata
+LogReg
+LGBM
+9.10
+0.3553
+0.3865
+11/24
+kbest
+Cascata
+LGBM
+LogReg
+1.74
+0.3790
+0.4014
+12/24
+kbest
+Cascata
+LGBM
+LGBM
+15.58
+0.3686
+0.3895
+13/24
+percentile
+Direta
+LogReg
+
+
+
+
+
+
+
+
+
+

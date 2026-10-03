@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Arquivos grandes demais para o GitHub (limite de 100 MB por arquivo). Ficam só no disco local.
+# Como regerar cada um:
+#   BERTimbau final (416 MB): python finetune_bertimbau.py --modo final --epocas 2 --saida modelos/bertimbau/final_2ep
+modelos/bertimbau/final_2ep/final/model.safetensors
+#   Ensemble clássico (164 e 147 MB): python ensemble_classico.py
+modelos/ensemble_classico/modelo_final.joblib
+modelos/ensemble_classico/modelo_avaliado_split_baseline.joblib
+#   SVC palavra+caractere final (121 MB): treinado e guardado por prever_ensemble.py na primeira execução
+modelos/finais/svc_word12_char25.joblib
+#   Cache das classes gramaticais do spaCy (65 MB): python -m analise_duplicatas.filtro_gramatical
+analise_duplicatas/cache_pos.pkl
+# Ignorar modelos pesados do PyTorch/Transformers
+*.pt
+*.safetensors
+ilan/saved_bertimbau_classifier/
+ilan/saved_bertimbau_classifier2/

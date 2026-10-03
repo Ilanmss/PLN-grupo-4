@@ -1,0 +1,10 @@
+﻿tratamento,f1_macro,f1_dp,accuracy
+Referência (sem tratamento),0.4461697496794819,0.0,0.4491951710261569
+A. Remover frases presentes em >= 50 textos,0.45146539732291124,0.0,0.4549798792756539
+A. Remover frases presentes em >= 20 textos,0.45287466346151267,0.0,0.4557344064386318
+A. Remover frases presentes em >= 5 textos,0.4594485004455155,0.0,0.4615191146881288
+B. TF-IDF + atributos manuais,0.4536444733503557,0.0,0.4567404426559356
+"B. Só atributos manuais (15 atributos, sem TF-IDF)",0.3803469069330632,0.0,0.3905935613682093
+C. Remover os 10% de rótulos mais suspeitos do treino,0.45418276120177964,0.0,0.45724346076458755
+C. Remover os 20% de rótulos mais suspeitos do treino,0.4496901504131787,0.0,0.45296780684104626
+C. Remover os 30% de rótulos mais suspeitos do treino,0.4426917641040129,0.0,0.44642857142857145

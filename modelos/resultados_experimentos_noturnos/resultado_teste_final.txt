@@ -1,0 +1,35 @@
+RESULTADO FINAL NO TESTE INDEPENDENTE
+======================================================================
+
+Data/hora: 2026-09-29 04:04:18
+ID da configuracao: 45
+Representacao: word_12
+Classificador: LinearSVC
+Parametros: {'C': 0.1, 'class_weight': None}
+
+VALIDACAO CRUZADA
+F1-macro medio: 0.449006
+Desvio padrao: 0.007283
+
+TESTE INDEPENDENTE
+F1-macro: 0.477827
+Accuracy: 0.479970
+Cohen's kappa: 0.218886
+
+RELATORIO DE CLASSIFICACAO
+              precision    recall  f1-score   support
+
+          c1       0.51      0.49      0.50      1269
+        c234       0.41      0.37      0.39      1371
+          c5       0.51      0.58      0.54      1379
+
+    accuracy                           0.48      4019
+   macro avg       0.48      0.48      0.48      4019
+weighted avg       0.48      0.48      0.48      4019
+
+
+MATRIZ DE CONFUSAO
+Ordem das classes: ['c1', 'c234', 'c5']
+[[624 339 306]
+ [390 512 469]
+ [199 387 793]]

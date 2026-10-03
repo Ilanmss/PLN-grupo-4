@@ -1,0 +1,4 @@
+{
+  "arquivo_bert": "modelos/bertimbau/holdout_2ep/holdout_probabilidades_epoca_2.csv",
+  "peso_bert_recomendado": 0.375
+}

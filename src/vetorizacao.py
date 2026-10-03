@@ -28,8 +28,8 @@ def get_bag_of_words_vectorizer(
 def get_tfidf_vectorizer(
     max_features: int = 5000,
     ngram_range: Tuple[int, int] = (1, 2),
-    min_df: Union[int, float] = 2,
-    max_df: Union[int, float] = 0.95,
+    min_df: Union[int, float] = 1,
+    max_df: Union[int, float] = 1,
     sublinear_tf: bool = True
 ) -> TfidfVectorizer:
     """
