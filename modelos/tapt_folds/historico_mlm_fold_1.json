@@ -1,0 +1,38 @@
+{
+  "config": {
+    "modelo": "neuralmind/bert-base-portuguese-cased",
+    "saida": "modelos/tapt_folds/fold_1",
+    "max_len": 256,
+    "tokens_inicio": 64,
+    "epocas": 2,
+    "lr": 5e-05,
+    "lote": 16,
+    "acumulacao": 2,
+    "warmup": 0.06,
+    "prob_mascara": 0.15,
+    "folds": 5,
+    "semente": 42,
+    "semente_divisao": 42,
+    "textos": "fold",
+    "fold": 1,
+    "amostra": null
+  },
+  "historico": [
+    {
+      "epoca": 0,
+      "perda_mlm_val": 3.072967472076416
+    },
+    {
+      "epoca": 1,
+      "perda_mlm_treino": 1.0348799276564802,
+      "perda_mlm_val": 0.7968533625602722,
+      "minutos": 58.68559451897939
+    },
+    {
+      "epoca": 2,
+      "perda_mlm_treino": 0.820046495409712,
+      "perda_mlm_val": 0.7500335125923157,
+      "minutos": 58.65608801841736
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+TESTE 159/200
+Inicio: 2026-09-29 02:38:57
+Representacao: charwb_35
+Classificador: SGD_log_loss
+Parametros: {"alpha": 0.001, "class_weight": null}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.43187260750715967, 0.42961841207288476, 0.43831896916764995, 0.4283742135669983, 0.4340647743779626]
+F1-macro medio: 0.432450
+Desvio padrao: 0.003937
+Accuracy media: 0.439743
+Duracao: 1.55 minutos
+Status: CONCLUIDO

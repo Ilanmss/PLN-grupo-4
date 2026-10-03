@@ -1,0 +1,47 @@
+BERTIMBAU - HOLDOUT AGRUPADO (última época)
+======================================================================
+
+Configuração:
+{
+  "modo": "holdout",
+  "modelo": "neuralmind/bert-base-portuguese-cased",
+  "max_len": 512,
+  "tokens_inicio": 128,
+  "epocas": 4,
+  "lr": 2e-05,
+  "lote": 8,
+  "acumulacao": 2,
+  "warmup": 0.1,
+  "label_smoothing": 0.0,
+  "folds": 5,
+  "semente": 42,
+  "teste": null,
+  "saida": "modelos/bertimbau"
+}
+
+F1-macro: 0.4474
+Accuracy: 0.4502
+Cohen's kappa: 0.1726
+
+Histórico por época:
+ epoca  perda_treino   minutos  f1_macro  accuracy    kappa
+     1      1.071022 64.340125  0.434490  0.445171 0.173297
+     2      1.003745 65.470083  0.460148  0.458753 0.186346
+     3      0.892149 65.626518  0.448679  0.453219 0.178805
+     4      0.767670 65.930015  0.447403  0.450201 0.172646
+
+              precision    recall  f1-score   support
+
+          c1     0.4515    0.4092    0.4293      1217
+        c234     0.3986    0.3806    0.3894      1390
+          c5     0.4935    0.5573    0.5235      1369
+
+    accuracy                         0.4502      3976
+   macro avg     0.4479    0.4490    0.4474      3976
+weighted avg     0.4475    0.4502    0.4478      3976
+
+Matriz de confusão (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[498 412 307]
+ [385 529 476]
+ [220 386 763]]

@@ -1,0 +1,63 @@
+{
+  "folds_usados": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "outros_metodos": {
+    "nome": "Ensemble SVC palavra + SVC palavra+caractere + LogReg + ComplementNB + MultinomialNB (média ponderada + viés)",
+    "componentes": [
+      "svc_word12",
+      "svc_word12_char25",
+      "logreg_word12",
+      "complementnb_word12",
+      "multinomialnb_word12"
+    ],
+    "metodo": "média ponderada + viés",
+    "pesos": {
+      "svc_word12": 0.0,
+      "svc_word12_char25": 0.9422,
+      "logreg_word12": 0.0,
+      "complementnb_word12": 0.0,
+      "multinomialnb_word12": 0.0578
+    },
+    "vies": {
+      "c1": -0.1,
+      "c234": 0.0,
+      "c5": -0.15
+    },
+    "f1_cv": 0.4597,
+    "f1_cv_dp": 0.004,
+    "acc_cv": 0.4589
+  },
+  "bert": {
+    "nome": "Ensemble BERTimbau + SVC palavra + SVC palavra+caractere + LogReg + ComplementNB + MultinomialNB (média ponderada + viés)",
+    "componentes": [
+      "bertimbau",
+      "svc_word12",
+      "svc_word12_char25",
+      "logreg_word12",
+      "complementnb_word12",
+      "multinomialnb_word12"
+    ],
+    "metodo": "média ponderada + viés",
+    "pesos": {
+      "bertimbau": 0.4787,
+      "svc_word12": 0.0,
+      "svc_word12_char25": 0.2978,
+      "logreg_word12": 0.2235,
+      "complementnb_word12": 0.0,
+      "multinomialnb_word12": 0.0
+    },
+    "vies": {
+      "c1": 0.0,
+      "c234": 0.0,
+      "c5": -0.15
+    },
+    "f1_cv": 0.4686,
+    "f1_cv_dp": 0.0056,
+    "acc_cv": 0.4682
+  }
+}

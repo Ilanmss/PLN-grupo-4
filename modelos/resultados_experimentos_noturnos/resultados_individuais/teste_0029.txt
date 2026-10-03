@@ -1,0 +1,13 @@
+TESTE 29/200
+Inicio: 2026-09-28 23:59:58
+Representacao: word_1
+Classificador: SGD_hinge
+Parametros: {"alpha": 1e-05, "class_weight": null}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.4278933360815728, 0.43206667474357713, 0.4221906593582058, 0.4226048153382933, 0.4146918176986431]
+F1-macro medio: 0.423889
+Desvio padrao: 0.006558
+Accuracy media: 0.424500
+Duracao: 0.19 minutos
+Status: CONCLUIDO

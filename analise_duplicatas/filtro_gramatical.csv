@@ -1,0 +1,41 @@
+﻿variante,modelo,f1_macro,accuracy
+Original,Baseline TF-IDF + LogReg,0.46589937837020406,0.4687733266981836
+Original,"TF-IDF (1,2) + LinearSVC",0.4782245055354421,0.47947250559840754
+Original,"TF-IDF (1,2) + ComplementNB",0.47651603192038644,0.4772331425727793
+Original,"TF-IDF (1,2) + MultinomialNB",0.4735953090589429,0.47474496143319234
+Lematizado,Baseline TF-IDF + LogReg,0.4652046140343456,0.4680268723563075
+Lematizado,"TF-IDF (1,2) + LinearSVC",0.4779405913350597,0.47947250559840754
+Lematizado,"TF-IDF (1,2) + ComplementNB",0.48012736244697657,0.48046777805424234
+Lematizado,"TF-IDF (1,2) + MultinomialNB",0.4788456166158819,0.47947250559840754
+"Sem verbos (remove predicados: VERB, AUX)",Baseline TF-IDF + LogReg,0.46367129279080643,0.46653396367255534
+"Sem verbos (remove predicados: VERB, AUX)","TF-IDF (1,2) + LinearSVC",0.47561115391351033,0.4772331425727793
+"Sem verbos (remove predicados: VERB, AUX)","TF-IDF (1,2) + ComplementNB",0.4781641615588436,0.47872605125653145
+"Sem verbos (remove predicados: VERB, AUX)","TF-IDF (1,2) + MultinomialNB",0.47240086111389284,0.47350087086339887
+"Só verbos (VERB, AUX)",Baseline TF-IDF + LogReg,0.4209159595532675,0.4239860661856183
+"Só verbos (VERB, AUX)","TF-IDF (1,2) + LinearSVC",0.44442447530226264,0.44637969644190095
+"Só verbos (VERB, AUX)","TF-IDF (1,2) + ComplementNB",0.4333859450056594,0.43667578999751183
+"Só verbos (VERB, AUX)","TF-IDF (1,2) + MultinomialNB",0.43598837062534795,0.4384175167952227
+"Sem palavras funcionais (DET, ADP, PRON, conj., AUX)",Baseline TF-IDF + LogReg,0.45900676829712933,0.46205523762129885
+"Sem palavras funcionais (DET, ADP, PRON, conj., AUX)","TF-IDF (1,2) + LinearSVC",0.4755451108252056,0.4777307788006967
+"Sem palavras funcionais (DET, ADP, PRON, conj., AUX)","TF-IDF (1,2) + ComplementNB",0.4746760724892541,0.47648668823090323
+"Sem palavras funcionais (DET, ADP, PRON, conj., AUX)","TF-IDF (1,2) + MultinomialNB",0.47040162253504314,0.47225678029360535
+"Só substantivos, nomes próprios e adjetivos",Baseline TF-IDF + LogReg,0.46676282504638794,0.46927096292610104
+"Só substantivos, nomes próprios e adjetivos","TF-IDF (1,2) + LinearSVC",0.47025294060717354,0.47300323463548144
+"Só substantivos, nomes próprios e adjetivos","TF-IDF (1,2) + ComplementNB",0.46592238926175344,0.46827569047026624
+"Só substantivos, nomes próprios e adjetivos","TF-IDF (1,2) + MultinomialNB",0.46871577236634354,0.4705150534958945
+Só substantivos e verbos,Baseline TF-IDF + LogReg,0.4495336321981169,0.4518536949489923
+Só substantivos e verbos,"TF-IDF (1,2) + LinearSVC",0.46209688719509967,0.4640457825329684
+Só substantivos e verbos,"TF-IDF (1,2) + ComplementNB",0.4610820912556757,0.4632993281910923
+Só substantivos e verbos,"TF-IDF (1,2) + MultinomialNB",0.45298101331037416,0.4550883304304553
+Sem nomes próprios (PROPN),Baseline TF-IDF + LogReg,0.4516183689518267,0.4540930579746206
+Sem nomes próprios (PROPN),"TF-IDF (1,2) + LinearSVC",0.4641112992921658,0.46603632744463797
+Sem nomes próprios (PROPN),"TF-IDF (1,2) + ComplementNB",0.465969959263906,0.46678278178651406
+Sem nomes próprios (PROPN),"TF-IDF (1,2) + MultinomialNB",0.4656786166725399,0.46777805424234886
+"Só palavras de conteúdo, lematizadas",Baseline TF-IDF + LogReg,0.4637152774370535,0.46653396367255534
+"Só palavras de conteúdo, lematizadas","TF-IDF (1,2) + LinearSVC",0.4744982992188606,0.47648668823090323
+"Só palavras de conteúdo, lematizadas","TF-IDF (1,2) + ComplementNB",0.4720874804315451,0.47424732520527496
+"Só palavras de conteúdo, lematizadas","TF-IDF (1,2) + MultinomialNB",0.4697813036044412,0.47151032595172926
+"Texto + classes gramaticais (ex.: ""pedido NOUN"")",Baseline TF-IDF + LogReg,0.46111123253199854,0.46354814630505103
+"Texto + classes gramaticais (ex.: ""pedido NOUN"")","TF-IDF (1,2) + LinearSVC",0.4741052328147078,0.4769843244588206
+"Texto + classes gramaticais (ex.: ""pedido NOUN"")","TF-IDF (1,2) + ComplementNB",0.4701625230129978,0.4712615078377706
+"Texto + classes gramaticais (ex.: ""pedido NOUN"")","TF-IDF (1,2) + MultinomialNB",0.46844745017870243,0.4697685991540184

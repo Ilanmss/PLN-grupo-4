@@ -1,0 +1,419 @@
+[2026-09-28 23:55:59] ======================================================================
+[2026-09-28 23:55:59] INICIO DOS EXPERIMENTOS
+[2026-09-28 23:55:59] Dataset: data/train.xlsx
+[2026-09-28 23:55:59] Total de configuracoes: 200
+[2026-09-28 23:55:59] Validacao cruzada: 5 folds
+[2026-09-28 23:55:59] ======================================================================
+[2026-09-28 23:56:01] Total de exemplos: 20092
+[2026-09-28 23:56:01] Desenvolvimento: 16073
+[2026-09-28 23:56:01] Teste independente: 4019
+[2026-09-28 23:56:01] Classes: ['c1', 'c234', 'c5']
+[2026-09-28 23:56:01] TESTE 1/200 | ID=1 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-28 23:56:09] CONCLUIDO ID=1 | F1-macro=0.42969 | DP=0.00480 | Duracao=0.14 min
+[2026-09-28 23:56:09] TESTE 2/200 | ID=2 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-28 23:56:18] CONCLUIDO ID=2 | F1-macro=0.43317 | DP=0.00462 | Duracao=0.14 min
+[2026-09-28 23:56:18] TESTE 3/200 | ID=3 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-28 23:56:27] CONCLUIDO ID=3 | F1-macro=0.44023 | DP=0.00484 | Duracao=0.15 min
+[2026-09-28 23:56:27] TESTE 4/200 | ID=4 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-28 23:56:35] CONCLUIDO ID=4 | F1-macro=0.44465 | DP=0.00398 | Duracao=0.15 min
+[2026-09-28 23:56:35] TESTE 5/200 | ID=5 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-28 23:56:45] CONCLUIDO ID=5 | F1-macro=0.44749 | DP=0.01125 | Duracao=0.15 min
+[2026-09-28 23:56:45] TESTE 6/200 | ID=6 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-28 23:56:54] CONCLUIDO ID=6 | F1-macro=0.44656 | DP=0.00805 | Duracao=0.15 min
+[2026-09-28 23:56:54] TESTE 7/200 | ID=7 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-28 23:57:03] CONCLUIDO ID=7 | F1-macro=0.44183 | DP=0.00547 | Duracao=0.16 min
+[2026-09-28 23:57:03] TESTE 8/200 | ID=8 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-28 23:57:13] CONCLUIDO ID=8 | F1-macro=0.44203 | DP=0.00461 | Duracao=0.16 min
+[2026-09-28 23:57:13] TESTE 9/200 | ID=9 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': None}
+[2026-09-28 23:57:26] CONCLUIDO ID=9 | F1-macro=0.43294 | DP=0.00735 | Duracao=0.21 min
+[2026-09-28 23:57:26] TESTE 10/200 | ID=10 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-28 23:57:38] CONCLUIDO ID=10 | F1-macro=0.43435 | DP=0.00596 | Duracao=0.20 min
+[2026-09-28 23:57:38] TESTE 11/200 | ID=11 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': None}
+[2026-09-28 23:57:56] CONCLUIDO ID=11 | F1-macro=0.42266 | DP=0.00784 | Duracao=0.31 min
+[2026-09-28 23:57:56] TESTE 12/200 | ID=12 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-28 23:58:14] CONCLUIDO ID=12 | F1-macro=0.42228 | DP=0.00860 | Duracao=0.29 min
+[2026-09-28 23:58:14] TESTE 13/200 | ID=13 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': None}
+[2026-09-28 23:58:50] CONCLUIDO ID=13 | F1-macro=0.41738 | DP=0.00844 | Duracao=0.60 min
+[2026-09-28 23:58:50] TESTE 14/200 | ID=14 | Representacao=word_1 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-28 23:59:27] CONCLUIDO ID=14 | F1-macro=0.41745 | DP=0.00799 | Duracao=0.63 min
+[2026-09-28 23:59:27] TESTE 15/200 | ID=15 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-28 23:59:29] ERRO ID=15: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:29] TESTE 16/200 | ID=16 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-28 23:59:30] ERRO ID=16: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:30] TESTE 17/200 | ID=17 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-28 23:59:31] ERRO ID=17: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:31] TESTE 18/200 | ID=18 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-28 23:59:33] ERRO ID=18: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:33] TESTE 19/200 | ID=19 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-28 23:59:34] ERRO ID=19: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:34] TESTE 20/200 | ID=20 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-28 23:59:35] ERRO ID=20: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:35] TESTE 21/200 | ID=21 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-28 23:59:37] ERRO ID=21: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:37] TESTE 22/200 | ID=22 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-28 23:59:38] ERRO ID=22: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:38] TESTE 23/200 | ID=23 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': None}
+[2026-09-28 23:59:39] ERRO ID=23: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:39] TESTE 24/200 | ID=24 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-28 23:59:41] ERRO ID=24: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:41] TESTE 25/200 | ID=25 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': None}
+[2026-09-28 23:59:42] ERRO ID=25: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:42] TESTE 26/200 | ID=26 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-28 23:59:43] ERRO ID=26: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:43] TESTE 27/200 | ID=27 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': None}
+[2026-09-28 23:59:45] ERRO ID=27: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:45] TESTE 28/200 | ID=28 | Representacao=word_1 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-28 23:59:46] ERRO ID=28: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-28 23:59:46] TESTE 29/200 | ID=29 | Representacao=word_1 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-28 23:59:58] CONCLUIDO ID=29 | F1-macro=0.42389 | DP=0.00656 | Duracao=0.19 min
+[2026-09-28 23:59:58] TESTE 30/200 | ID=30 | Representacao=word_1 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 00:00:09] CONCLUIDO ID=30 | F1-macro=0.42398 | DP=0.00663 | Duracao=0.19 min
+[2026-09-29 00:00:09] TESTE 31/200 | ID=31 | Representacao=word_1 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 00:00:19] CONCLUIDO ID=31 | F1-macro=0.43851 | DP=0.00691 | Duracao=0.16 min
+[2026-09-29 00:00:19] TESTE 32/200 | ID=32 | Representacao=word_1 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 00:00:28] CONCLUIDO ID=32 | F1-macro=0.43792 | DP=0.00561 | Duracao=0.16 min
+[2026-09-29 00:00:28] TESTE 33/200 | ID=33 | Representacao=word_1 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 00:00:37] CONCLUIDO ID=33 | F1-macro=0.42785 | DP=0.01171 | Duracao=0.15 min
+[2026-09-29 00:00:37] TESTE 34/200 | ID=34 | Representacao=word_1 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 00:00:46] CONCLUIDO ID=34 | F1-macro=0.42682 | DP=0.00940 | Duracao=0.15 min
+[2026-09-29 00:00:46] TESTE 35/200 | ID=35 | Representacao=word_1 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 00:00:56] CONCLUIDO ID=35 | F1-macro=0.43176 | DP=0.00773 | Duracao=0.17 min
+[2026-09-29 00:00:56] TESTE 36/200 | ID=36 | Representacao=word_1 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 00:01:06] CONCLUIDO ID=36 | F1-macro=0.43179 | DP=0.00667 | Duracao=0.17 min
+[2026-09-29 00:01:06] TESTE 37/200 | ID=37 | Representacao=word_1 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 00:01:15] CONCLUIDO ID=37 | F1-macro=0.44492 | DP=0.00871 | Duracao=0.15 min
+[2026-09-29 00:01:15] TESTE 38/200 | ID=38 | Representacao=word_1 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 00:01:24] CONCLUIDO ID=38 | F1-macro=0.44415 | DP=0.00952 | Duracao=0.15 min
+[2026-09-29 00:01:24] TESTE 39/200 | ID=39 | Representacao=word_1 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 00:01:33] CONCLUIDO ID=39 | F1-macro=0.43067 | DP=0.00677 | Duracao=0.15 min
+[2026-09-29 00:01:33] TESTE 40/200 | ID=40 | Representacao=word_1 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 00:01:41] CONCLUIDO ID=40 | F1-macro=0.43377 | DP=0.00414 | Duracao=0.15 min
+[2026-09-29 00:01:41] TESTE 41/200 | ID=41 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 00:02:02] CONCLUIDO ID=41 | F1-macro=0.42580 | DP=0.00534 | Duracao=0.35 min
+[2026-09-29 00:02:02] TESTE 42/200 | ID=42 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 00:02:23] CONCLUIDO ID=42 | F1-macro=0.43209 | DP=0.00433 | Duracao=0.34 min
+[2026-09-29 00:02:23] TESTE 43/200 | ID=43 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 00:02:44] CONCLUIDO ID=43 | F1-macro=0.44108 | DP=0.00467 | Duracao=0.35 min
+[2026-09-29 00:02:44] TESTE 44/200 | ID=44 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 00:03:05] CONCLUIDO ID=44 | F1-macro=0.44514 | DP=0.00496 | Duracao=0.35 min
+[2026-09-29 00:03:05] TESTE 45/200 | ID=45 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 00:03:26] CONCLUIDO ID=45 | F1-macro=0.44901 | DP=0.00728 | Duracao=0.36 min
+[2026-09-29 00:03:26] TESTE 46/200 | ID=46 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 00:03:48] CONCLUIDO ID=46 | F1-macro=0.44887 | DP=0.00674 | Duracao=0.36 min
+[2026-09-29 00:03:48] TESTE 47/200 | ID=47 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 00:04:10] CONCLUIDO ID=47 | F1-macro=0.44719 | DP=0.00754 | Duracao=0.38 min
+[2026-09-29 00:04:10] TESTE 48/200 | ID=48 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 00:04:33] CONCLUIDO ID=48 | F1-macro=0.44739 | DP=0.00735 | Duracao=0.38 min
+[2026-09-29 00:04:33] TESTE 49/200 | ID=49 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 00:05:00] CONCLUIDO ID=49 | F1-macro=0.43877 | DP=0.01084 | Duracao=0.45 min
+[2026-09-29 00:05:00] TESTE 50/200 | ID=50 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 00:05:27] CONCLUIDO ID=50 | F1-macro=0.43842 | DP=0.01069 | Duracao=0.45 min
+[2026-09-29 00:05:27] TESTE 51/200 | ID=51 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 00:06:05] CONCLUIDO ID=51 | F1-macro=0.42846 | DP=0.00680 | Duracao=0.64 min
+[2026-09-29 00:06:05] TESTE 52/200 | ID=52 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 00:06:43] CONCLUIDO ID=52 | F1-macro=0.42866 | DP=0.00766 | Duracao=0.63 min
+[2026-09-29 00:06:43] TESTE 53/200 | ID=53 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 00:07:59] CONCLUIDO ID=53 | F1-macro=0.42131 | DP=0.00746 | Duracao=1.27 min
+[2026-09-29 00:07:59] TESTE 54/200 | ID=54 | Representacao=word_12 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 00:09:15] CONCLUIDO ID=54 | F1-macro=0.42035 | DP=0.00753 | Duracao=1.27 min
+[2026-09-29 00:09:15] TESTE 55/200 | ID=55 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 00:09:18] ERRO ID=55: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:18] TESTE 56/200 | ID=56 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 00:09:22] ERRO ID=56: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:22] TESTE 57/200 | ID=57 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 00:09:25] ERRO ID=57: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:25] TESTE 58/200 | ID=58 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 00:09:28] ERRO ID=58: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:28] TESTE 59/200 | ID=59 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 00:09:31] ERRO ID=59: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:31] TESTE 60/200 | ID=60 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 00:09:35] ERRO ID=60: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:35] TESTE 61/200 | ID=61 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 00:09:38] ERRO ID=61: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:38] TESTE 62/200 | ID=62 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 00:09:41] ERRO ID=62: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:41] TESTE 63/200 | ID=63 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 00:09:44] ERRO ID=63: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:44] TESTE 64/200 | ID=64 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 00:09:48] ERRO ID=64: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:48] TESTE 65/200 | ID=65 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 00:09:51] ERRO ID=65: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:51] TESTE 66/200 | ID=66 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 00:09:54] ERRO ID=66: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:54] TESTE 67/200 | ID=67 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 00:09:57] ERRO ID=67: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:09:57] TESTE 68/200 | ID=68 | Representacao=word_12 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 00:10:01] ERRO ID=68: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 00:10:01] TESTE 69/200 | ID=69 | Representacao=word_12 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 00:10:25] CONCLUIDO ID=69 | F1-macro=0.42311 | DP=0.00738 | Duracao=0.40 min
+[2026-09-29 00:10:25] TESTE 70/200 | ID=70 | Representacao=word_12 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 00:10:49] CONCLUIDO ID=70 | F1-macro=0.42142 | DP=0.00605 | Duracao=0.40 min
+[2026-09-29 00:10:49] TESTE 71/200 | ID=71 | Representacao=word_12 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 00:11:11] CONCLUIDO ID=71 | F1-macro=0.44478 | DP=0.01096 | Duracao=0.36 min
+[2026-09-29 00:11:11] TESTE 72/200 | ID=72 | Representacao=word_12 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 00:11:32] CONCLUIDO ID=72 | F1-macro=0.44637 | DP=0.00980 | Duracao=0.36 min
+[2026-09-29 00:11:32] TESTE 73/200 | ID=73 | Representacao=word_12 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 00:11:53] CONCLUIDO ID=73 | F1-macro=0.43830 | DP=0.01189 | Duracao=0.34 min
+[2026-09-29 00:11:53] TESTE 74/200 | ID=74 | Representacao=word_12 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 00:12:13] CONCLUIDO ID=74 | F1-macro=0.43623 | DP=0.01235 | Duracao=0.34 min
+[2026-09-29 00:12:13] TESTE 75/200 | ID=75 | Representacao=word_12 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 00:12:35] CONCLUIDO ID=75 | F1-macro=0.44117 | DP=0.00827 | Duracao=0.36 min
+[2026-09-29 00:12:35] TESTE 76/200 | ID=76 | Representacao=word_12 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 00:12:57] CONCLUIDO ID=76 | F1-macro=0.44064 | DP=0.00845 | Duracao=0.36 min
+[2026-09-29 00:12:57] TESTE 77/200 | ID=77 | Representacao=word_12 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 00:13:18] CONCLUIDO ID=77 | F1-macro=0.44805 | DP=0.00478 | Duracao=0.35 min
+[2026-09-29 00:13:18] TESTE 78/200 | ID=78 | Representacao=word_12 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 00:13:39] CONCLUIDO ID=78 | F1-macro=0.44833 | DP=0.00585 | Duracao=0.35 min
+[2026-09-29 00:13:39] TESTE 79/200 | ID=79 | Representacao=word_12 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 00:14:00] CONCLUIDO ID=79 | F1-macro=0.42546 | DP=0.00624 | Duracao=0.36 min
+[2026-09-29 00:14:00] TESTE 80/200 | ID=80 | Representacao=word_12 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 00:14:22] CONCLUIDO ID=80 | F1-macro=0.43231 | DP=0.00436 | Duracao=0.35 min
+[2026-09-29 00:14:22] TESTE 81/200 | ID=81 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 00:16:42] CONCLUIDO ID=81 | F1-macro=0.43139 | DP=0.00258 | Duracao=2.34 min
+[2026-09-29 00:16:42] TESTE 82/200 | ID=82 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 00:19:02] CONCLUIDO ID=82 | F1-macro=0.43353 | DP=0.00247 | Duracao=2.33 min
+[2026-09-29 00:19:02] TESTE 83/200 | ID=83 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 00:21:22] CONCLUIDO ID=83 | F1-macro=0.44497 | DP=0.00361 | Duracao=2.34 min
+[2026-09-29 00:21:22] TESTE 84/200 | ID=84 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 00:23:49] CONCLUIDO ID=84 | F1-macro=0.44560 | DP=0.00228 | Duracao=2.44 min
+[2026-09-29 00:23:49] TESTE 85/200 | ID=85 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 00:26:25] CONCLUIDO ID=85 | F1-macro=0.44874 | DP=0.00449 | Duracao=2.60 min
+[2026-09-29 00:26:25] TESTE 86/200 | ID=86 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 00:28:56] CONCLUIDO ID=86 | F1-macro=0.44745 | DP=0.00693 | Duracao=2.51 min
+[2026-09-29 00:28:56] TESTE 87/200 | ID=87 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 00:31:35] CONCLUIDO ID=87 | F1-macro=0.44195 | DP=0.00789 | Duracao=2.66 min
+[2026-09-29 00:31:35] TESTE 88/200 | ID=88 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 00:34:15] CONCLUIDO ID=88 | F1-macro=0.44275 | DP=0.00789 | Duracao=2.66 min
+[2026-09-29 00:34:15] TESTE 89/200 | ID=89 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 00:37:31] CONCLUIDO ID=89 | F1-macro=0.43585 | DP=0.00872 | Duracao=3.28 min
+[2026-09-29 00:37:31] TESTE 90/200 | ID=90 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 00:40:40] CONCLUIDO ID=90 | F1-macro=0.43565 | DP=0.00733 | Duracao=3.14 min
+[2026-09-29 00:40:40] TESTE 91/200 | ID=91 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 00:45:08] CONCLUIDO ID=91 | F1-macro=0.43063 | DP=0.00913 | Duracao=4.48 min
+[2026-09-29 00:45:08] TESTE 92/200 | ID=92 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 00:49:40] CONCLUIDO ID=92 | F1-macro=0.43034 | DP=0.00900 | Duracao=4.52 min
+[2026-09-29 00:49:40] TESTE 93/200 | ID=93 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 00:59:07] CONCLUIDO ID=93 | F1-macro=0.42459 | DP=0.01186 | Duracao=9.46 min
+[2026-09-29 00:59:07] TESTE 94/200 | ID=94 | Representacao=char_35 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 01:08:41] CONCLUIDO ID=94 | F1-macro=0.42485 | DP=0.01188 | Duracao=9.57 min
+[2026-09-29 01:08:41] TESTE 95/200 | ID=95 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 01:09:02] ERRO ID=95: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:09:02] TESTE 96/200 | ID=96 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 01:09:23] ERRO ID=96: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:09:23] TESTE 97/200 | ID=97 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 01:09:44] ERRO ID=97: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:09:44] TESTE 98/200 | ID=98 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 01:10:05] ERRO ID=98: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:10:05] TESTE 99/200 | ID=99 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 01:10:26] ERRO ID=99: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:10:26] TESTE 100/200 | ID=100 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 01:10:47] ERRO ID=100: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:10:47] TESTE 101/200 | ID=101 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 01:11:08] ERRO ID=101: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:11:08] TESTE 102/200 | ID=102 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 01:11:29] ERRO ID=102: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:11:29] TESTE 103/200 | ID=103 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 01:11:50] ERRO ID=103: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:11:50] TESTE 104/200 | ID=104 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 01:12:11] ERRO ID=104: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:12:11] TESTE 105/200 | ID=105 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 01:12:32] ERRO ID=105: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:12:32] TESTE 106/200 | ID=106 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 01:12:52] ERRO ID=106: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:12:52] TESTE 107/200 | ID=107 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 01:13:13] ERRO ID=107: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:13:13] TESTE 108/200 | ID=108 | Representacao=char_35 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 01:13:34] ERRO ID=108: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 01:13:34] TESTE 109/200 | ID=109 | Representacao=char_35 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 01:16:20] CONCLUIDO ID=109 | F1-macro=0.42665 | DP=0.01105 | Duracao=2.76 min
+[2026-09-29 01:16:20] TESTE 110/200 | ID=110 | Representacao=char_35 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 01:19:06] CONCLUIDO ID=110 | F1-macro=0.42847 | DP=0.01108 | Duracao=2.77 min
+[2026-09-29 01:19:06] TESTE 111/200 | ID=111 | Representacao=char_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 01:21:35] CONCLUIDO ID=111 | F1-macro=0.44273 | DP=0.00794 | Duracao=2.47 min
+[2026-09-29 01:21:35] TESTE 112/200 | ID=112 | Representacao=char_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 01:24:03] CONCLUIDO ID=112 | F1-macro=0.44173 | DP=0.00898 | Duracao=2.47 min
+[2026-09-29 01:24:03] TESTE 113/200 | ID=113 | Representacao=char_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 01:26:21] CONCLUIDO ID=113 | F1-macro=0.43585 | DP=0.00782 | Duracao=2.31 min
+[2026-09-29 01:26:21] TESTE 114/200 | ID=114 | Representacao=char_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 01:28:40] CONCLUIDO ID=114 | F1-macro=0.43452 | DP=0.00446 | Duracao=2.31 min
+[2026-09-29 01:28:40] TESTE 115/200 | ID=115 | Representacao=char_35 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 01:31:10] CONCLUIDO ID=115 | F1-macro=0.43562 | DP=0.00642 | Duracao=2.50 min
+[2026-09-29 01:31:10] TESTE 116/200 | ID=116 | Representacao=char_35 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 01:33:40] CONCLUIDO ID=116 | F1-macro=0.43695 | DP=0.00634 | Duracao=2.50 min
+[2026-09-29 01:33:40] TESTE 117/200 | ID=117 | Representacao=char_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 01:36:02] CONCLUIDO ID=117 | F1-macro=0.44741 | DP=0.00692 | Duracao=2.37 min
+[2026-09-29 01:36:02] TESTE 118/200 | ID=118 | Representacao=char_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 01:38:24] CONCLUIDO ID=118 | F1-macro=0.44834 | DP=0.00903 | Duracao=2.37 min
+[2026-09-29 01:38:24] TESTE 119/200 | ID=119 | Representacao=char_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 01:40:42] CONCLUIDO ID=119 | F1-macro=0.43142 | DP=0.00369 | Duracao=2.31 min
+[2026-09-29 01:40:42] TESTE 120/200 | ID=120 | Representacao=char_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 01:43:00] CONCLUIDO ID=120 | F1-macro=0.43356 | DP=0.00268 | Duracao=2.30 min
+[2026-09-29 01:43:00] TESTE 121/200 | ID=121 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 01:44:36] CONCLUIDO ID=121 | F1-macro=0.42995 | DP=0.00435 | Duracao=1.60 min
+[2026-09-29 01:44:36] TESTE 122/200 | ID=122 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 01:46:12] CONCLUIDO ID=122 | F1-macro=0.43397 | DP=0.00369 | Duracao=1.60 min
+[2026-09-29 01:46:12] TESTE 123/200 | ID=123 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 01:47:48] CONCLUIDO ID=123 | F1-macro=0.44312 | DP=0.00416 | Duracao=1.61 min
+[2026-09-29 01:47:48] TESTE 124/200 | ID=124 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 01:49:25] CONCLUIDO ID=124 | F1-macro=0.44481 | DP=0.00379 | Duracao=1.61 min
+[2026-09-29 01:49:25] TESTE 125/200 | ID=125 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 01:51:04] CONCLUIDO ID=125 | F1-macro=0.44548 | DP=0.00732 | Duracao=1.65 min
+[2026-09-29 01:51:04] TESTE 126/200 | ID=126 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 01:52:43] CONCLUIDO ID=126 | F1-macro=0.44556 | DP=0.00714 | Duracao=1.65 min
+[2026-09-29 01:52:43] TESTE 127/200 | ID=127 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 01:54:30] CONCLUIDO ID=127 | F1-macro=0.44377 | DP=0.00690 | Duracao=1.79 min
+[2026-09-29 01:54:30] TESTE 128/200 | ID=128 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 01:56:14] CONCLUIDO ID=128 | F1-macro=0.44421 | DP=0.00681 | Duracao=1.73 min
+[2026-09-29 01:56:14] TESTE 129/200 | ID=129 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 01:58:17] CONCLUIDO ID=129 | F1-macro=0.43741 | DP=0.00964 | Duracao=2.05 min
+[2026-09-29 01:58:17] TESTE 130/200 | ID=130 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 02:00:19] CONCLUIDO ID=130 | F1-macro=0.43831 | DP=0.00977 | Duracao=2.03 min
+[2026-09-29 02:00:19] TESTE 131/200 | ID=131 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 02:03:11] CONCLUIDO ID=131 | F1-macro=0.42778 | DP=0.01273 | Duracao=2.87 min
+[2026-09-29 02:03:11] TESTE 132/200 | ID=132 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 02:06:01] CONCLUIDO ID=132 | F1-macro=0.42780 | DP=0.01357 | Duracao=2.83 min
+[2026-09-29 02:06:01] TESTE 133/200 | ID=133 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 02:11:38] CONCLUIDO ID=133 | F1-macro=0.42215 | DP=0.01232 | Duracao=5.62 min
+[2026-09-29 02:11:38] TESTE 134/200 | ID=134 | Representacao=charwb_35 | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 02:17:14] CONCLUIDO ID=134 | F1-macro=0.42199 | DP=0.01258 | Duracao=5.59 min
+[2026-09-29 02:17:14] TESTE 135/200 | ID=135 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 02:17:28] ERRO ID=135: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:17:28] TESTE 136/200 | ID=136 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 02:17:42] ERRO ID=136: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:17:42] TESTE 137/200 | ID=137 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 02:17:56] ERRO ID=137: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:17:56] TESTE 138/200 | ID=138 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 02:18:11] ERRO ID=138: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:18:11] TESTE 139/200 | ID=139 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 02:18:25] ERRO ID=139: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:18:25] TESTE 140/200 | ID=140 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 02:18:39] ERRO ID=140: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:18:39] TESTE 141/200 | ID=141 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 02:18:53] ERRO ID=141: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:18:53] TESTE 142/200 | ID=142 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 02:19:08] ERRO ID=142: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:19:08] TESTE 143/200 | ID=143 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 02:19:22] ERRO ID=143: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:19:22] TESTE 144/200 | ID=144 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 02:19:37] ERRO ID=144: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:19:37] TESTE 145/200 | ID=145 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 02:19:51] ERRO ID=145: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:19:51] TESTE 146/200 | ID=146 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 02:20:05] ERRO ID=146: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:20:05] TESTE 147/200 | ID=147 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 02:20:20] ERRO ID=147: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:20:20] TESTE 148/200 | ID=148 | Representacao=charwb_35 | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 02:20:34] ERRO ID=148: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 02:20:34] TESTE 149/200 | ID=149 | Representacao=charwb_35 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 02:22:27] CONCLUIDO ID=149 | F1-macro=0.42600 | DP=0.01106 | Duracao=1.89 min
+[2026-09-29 02:22:27] TESTE 150/200 | ID=150 | Representacao=charwb_35 | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 02:24:20] CONCLUIDO ID=150 | F1-macro=0.42744 | DP=0.00841 | Duracao=1.89 min
+[2026-09-29 02:24:20] TESTE 151/200 | ID=151 | Representacao=charwb_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 02:26:00] CONCLUIDO ID=151 | F1-macro=0.43932 | DP=0.00864 | Duracao=1.66 min
+[2026-09-29 02:26:00] TESTE 152/200 | ID=152 | Representacao=charwb_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 02:27:40] CONCLUIDO ID=152 | F1-macro=0.43961 | DP=0.00929 | Duracao=1.66 min
+[2026-09-29 02:27:40] TESTE 153/200 | ID=153 | Representacao=charwb_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 02:29:13] CONCLUIDO ID=153 | F1-macro=0.42967 | DP=0.00956 | Duracao=1.56 min
+[2026-09-29 02:29:13] TESTE 154/200 | ID=154 | Representacao=charwb_35 | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 02:30:47] CONCLUIDO ID=154 | F1-macro=0.43212 | DP=0.00638 | Duracao=1.56 min
+[2026-09-29 02:30:47] TESTE 155/200 | ID=155 | Representacao=charwb_35 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 02:32:30] CONCLUIDO ID=155 | F1-macro=0.43843 | DP=0.00708 | Duracao=1.71 min
+[2026-09-29 02:32:30] TESTE 156/200 | ID=156 | Representacao=charwb_35 | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 02:34:12] CONCLUIDO ID=156 | F1-macro=0.43863 | DP=0.00653 | Duracao=1.71 min
+[2026-09-29 02:34:12] TESTE 157/200 | ID=157 | Representacao=charwb_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 02:35:48] CONCLUIDO ID=157 | F1-macro=0.44209 | DP=0.00825 | Duracao=1.60 min
+[2026-09-29 02:35:48] TESTE 158/200 | ID=158 | Representacao=charwb_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 02:37:24] CONCLUIDO ID=158 | F1-macro=0.44403 | DP=0.00822 | Duracao=1.60 min
+[2026-09-29 02:37:24] TESTE 159/200 | ID=159 | Representacao=charwb_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 02:38:57] CONCLUIDO ID=159 | F1-macro=0.43245 | DP=0.00394 | Duracao=1.55 min
+[2026-09-29 02:38:57] TESTE 160/200 | ID=160 | Representacao=charwb_35 | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 02:40:31] CONCLUIDO ID=160 | F1-macro=0.43471 | DP=0.00603 | Duracao=1.56 min
+[2026-09-29 02:40:31] TESTE 161/200 | ID=161 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 02:42:31] CONCLUIDO ID=161 | F1-macro=0.44046 | DP=0.00347 | Duracao=2.01 min
+[2026-09-29 02:42:31] TESTE 162/200 | ID=162 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 02:44:32] CONCLUIDO ID=162 | F1-macro=0.44102 | DP=0.00284 | Duracao=2.02 min
+[2026-09-29 02:44:32] TESTE 163/200 | ID=163 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 02:46:34] CONCLUIDO ID=163 | F1-macro=0.44676 | DP=0.00239 | Duracao=2.04 min
+[2026-09-29 02:46:34] TESTE 164/200 | ID=164 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 02:48:36] CONCLUIDO ID=164 | F1-macro=0.44799 | DP=0.00301 | Duracao=2.03 min
+[2026-09-29 02:48:36] TESTE 165/200 | ID=165 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 02:50:42] CONCLUIDO ID=165 | F1-macro=0.44875 | DP=0.00674 | Duracao=2.10 min
+[2026-09-29 02:50:42] TESTE 166/200 | ID=166 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 02:52:48] CONCLUIDO ID=166 | F1-macro=0.44745 | DP=0.00612 | Duracao=2.11 min
+[2026-09-29 02:52:48] TESTE 167/200 | ID=167 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 02:55:07] CONCLUIDO ID=167 | F1-macro=0.44111 | DP=0.00641 | Duracao=2.32 min
+[2026-09-29 02:55:07] TESTE 168/200 | ID=168 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 02:57:27] CONCLUIDO ID=168 | F1-macro=0.44255 | DP=0.00680 | Duracao=2.32 min
+[2026-09-29 02:57:27] TESTE 169/200 | ID=169 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 03:00:22] CONCLUIDO ID=169 | F1-macro=0.43413 | DP=0.01031 | Duracao=2.92 min
+[2026-09-29 03:00:22] TESTE 170/200 | ID=170 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 03:03:18] CONCLUIDO ID=170 | F1-macro=0.43542 | DP=0.01057 | Duracao=2.93 min
+[2026-09-29 03:03:18] TESTE 171/200 | ID=171 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 03:08:01] CONCLUIDO ID=171 | F1-macro=0.42565 | DP=0.01392 | Duracao=4.72 min
+[2026-09-29 03:08:01] TESTE 172/200 | ID=172 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 03:12:32] CONCLUIDO ID=172 | F1-macro=0.42591 | DP=0.01376 | Duracao=4.53 min
+[2026-09-29 03:12:32] TESTE 173/200 | ID=173 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 03:23:48] CONCLUIDO ID=173 | F1-macro=0.42074 | DP=0.01432 | Duracao=11.27 min
+[2026-09-29 03:23:48] TESTE 174/200 | ID=174 | Representacao=word_charwb | Modelo=LinearSVC | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 03:34:48] CONCLUIDO ID=174 | F1-macro=0.42130 | DP=0.01477 | Duracao=10.99 min
+[2026-09-29 03:34:48] TESTE 175/200 | ID=175 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': None}
+[2026-09-29 03:35:06] ERRO ID=175: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:35:06] TESTE 176/200 | ID=176 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.01, 'class_weight': 'balanced'}
+[2026-09-29 03:35:24] ERRO ID=176: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:35:24] TESTE 177/200 | ID=177 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': None}
+[2026-09-29 03:35:41] ERRO ID=177: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:35:42] TESTE 178/200 | ID=178 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.03, 'class_weight': 'balanced'}
+[2026-09-29 03:35:59] ERRO ID=178: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:35:59] TESTE 179/200 | ID=179 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': None}
+[2026-09-29 03:36:17] ERRO ID=179: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:36:17] TESTE 180/200 | ID=180 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.1, 'class_weight': 'balanced'}
+[2026-09-29 03:36:35] ERRO ID=180: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:36:35] TESTE 181/200 | ID=181 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': None}
+[2026-09-29 03:36:53] ERRO ID=181: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:36:53] TESTE 182/200 | ID=182 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 0.3, 'class_weight': 'balanced'}
+[2026-09-29 03:37:11] ERRO ID=182: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:37:11] TESTE 183/200 | ID=183 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': None}
+[2026-09-29 03:37:28] ERRO ID=183: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:37:28] TESTE 184/200 | ID=184 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 1, 'class_weight': 'balanced'}
+[2026-09-29 03:37:46] ERRO ID=184: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:37:46] TESTE 185/200 | ID=185 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': None}
+[2026-09-29 03:38:04] ERRO ID=185: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:38:04] TESTE 186/200 | ID=186 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 3, 'class_weight': 'balanced'}
+[2026-09-29 03:38:22] ERRO ID=186: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:38:22] TESTE 187/200 | ID=187 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': None}
+[2026-09-29 03:38:40] ERRO ID=187: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:38:40] TESTE 188/200 | ID=188 | Representacao=word_charwb | Modelo=LogisticRegression | Parametros={'C': 10, 'class_weight': 'balanced'}
+[2026-09-29 03:38:58] ERRO ID=188: The 'liblinear' solver does not support multiclass classification (n_classes >= 3). Either use another solver or wrap the estimator in a OneVsRestClassifier to keep applying a one-versus-rest scheme.
+[2026-09-29 03:38:58] TESTE 189/200 | ID=189 | Representacao=word_charwb | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 03:41:18] CONCLUIDO ID=189 | F1-macro=0.42117 | DP=0.01512 | Duracao=2.34 min
+[2026-09-29 03:41:18] TESTE 190/200 | ID=190 | Representacao=word_charwb | Modelo=SGD_hinge | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 03:43:38] CONCLUIDO ID=190 | F1-macro=0.42065 | DP=0.01308 | Duracao=2.33 min
+[2026-09-29 03:43:38] TESTE 191/200 | ID=191 | Representacao=word_charwb | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 03:45:48] CONCLUIDO ID=191 | F1-macro=0.44221 | DP=0.01099 | Duracao=2.17 min
+[2026-09-29 03:45:48] TESTE 192/200 | ID=192 | Representacao=word_charwb | Modelo=SGD_hinge | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 03:47:59] CONCLUIDO ID=192 | F1-macro=0.44204 | DP=0.01092 | Duracao=2.18 min
+[2026-09-29 03:47:59] TESTE 193/200 | ID=193 | Representacao=word_charwb | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 03:49:58] CONCLUIDO ID=193 | F1-macro=0.43719 | DP=0.00666 | Duracao=1.98 min
+[2026-09-29 03:49:58] TESTE 194/200 | ID=194 | Representacao=word_charwb | Modelo=SGD_hinge | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 03:51:57] CONCLUIDO ID=194 | F1-macro=0.43827 | DP=0.00584 | Duracao=1.98 min
+[2026-09-29 03:51:57] TESTE 195/200 | ID=195 | Representacao=word_charwb | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': None}
+[2026-09-29 03:54:05] CONCLUIDO ID=195 | F1-macro=0.43661 | DP=0.00918 | Duracao=2.14 min
+[2026-09-29 03:54:05] TESTE 196/200 | ID=196 | Representacao=word_charwb | Modelo=SGD_log_loss | Parametros={'alpha': 1e-05, 'class_weight': 'balanced'}
+[2026-09-29 03:56:13] CONCLUIDO ID=196 | F1-macro=0.43650 | DP=0.00805 | Duracao=2.14 min
+[2026-09-29 03:56:13] TESTE 197/200 | ID=197 | Representacao=word_charwb | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': None}
+[2026-09-29 03:58:15] CONCLUIDO ID=197 | F1-macro=0.44750 | DP=0.00634 | Duracao=2.02 min
+[2026-09-29 03:58:15] TESTE 198/200 | ID=198 | Representacao=word_charwb | Modelo=SGD_log_loss | Parametros={'alpha': 0.0001, 'class_weight': 'balanced'}
+[2026-09-29 04:00:16] CONCLUIDO ID=198 | F1-macro=0.44760 | DP=0.00665 | Duracao=2.03 min
+[2026-09-29 04:00:16] TESTE 199/200 | ID=199 | Representacao=word_charwb | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': None}
+[2026-09-29 04:02:14] CONCLUIDO ID=199 | F1-macro=0.44109 | DP=0.00224 | Duracao=1.96 min
+[2026-09-29 04:02:14] TESTE 200/200 | ID=200 | Representacao=word_charwb | Modelo=SGD_log_loss | Parametros={'alpha': 0.001, 'class_weight': 'balanced'}
+[2026-09-29 04:04:12] CONCLUIDO ID=200 | F1-macro=0.44112 | DP=0.00244 | Duracao=1.96 min
+[2026-09-29 04:04:12] Melhor configuracao: ID=45, F1-CV=0.449006
+[2026-09-29 04:04:18] ======================================================================
+[2026-09-29 04:04:18] EXPERIMENTOS FINALIZADOS
+[2026-09-29 04:04:18] Melhor F1 CV: 0.449006
+[2026-09-29 04:04:18] F1 teste: 0.477827
+[2026-09-29 04:04:18] Accuracy teste: 0.479970
+[2026-09-29 04:04:18] Kappa teste: 0.218886
+[2026-09-29 04:04:18] Resultados salvos em: resultados_experimentos_noturnos
+[2026-09-29 04:04:18] ======================================================================

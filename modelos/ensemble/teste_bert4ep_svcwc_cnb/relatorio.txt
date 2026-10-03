@@ -1,0 +1,37 @@
+ENSEMBLE NO HOLDOUT AGRUPADO
+======================================================================
+Métodos com parâmetros aprendidos: medidos com 2-fold agrupado dentro do holdout, repetido 5x (média; f1_dp = desvio entre repetições).
+"sozinho: X" (sem viés) não aprende nada: é o desempenho direto do modelo.
+
+                  método  f1_macro  accuracy  kappa  f1_dp
+       sozinho: bert_ep4    0.4474    0.4502 0.1726 0.0000
+sozinho: bert_ep4 + viés    0.4494    0.4503 0.1721 0.0024
+         sozinho: svc_wc    0.4552    0.4610 0.1906 0.0000
+  sozinho: svc_wc + viés    0.4574    0.4603 0.1858 0.0031
+            sozinho: cnb    0.4496    0.4522 0.1777 0.0000
+     sozinho: cnb + viés    0.4447    0.4442 0.1649 0.0034
+           média simples    0.4626    0.4663 0.1984 0.0000
+    média simples + viés    0.4596    0.4595 0.1876 0.0014
+         média ponderada    0.4637    0.4685 0.2008 0.0003
+  média ponderada + viés    0.4571    0.4573 0.1833 0.0032
+       stacking (LogReg)    0.4567    0.4589 0.1867 0.0026
+stacking (LogReg) + viés    0.4567    0.4559 0.1813 0.0036
+
+Parâmetros finais (ajustados no holdout inteiro):
+{
+  "modelos": {
+    "bert_ep4": "modelos/bertimbau/holdout_4ep/holdout_probabilidades.csv",
+    "svc_wc": "modelos/holdout_probabilidades/svc_word12_char25.csv",
+    "cnb": "modelos/holdout_probabilidades/complementnb_word12.csv"
+  },
+  "pesos_media_ponderada": {
+    "bert_ep4": 0.214,
+    "svc_wc": 0.786,
+    "cnb": 0.0
+  },
+  "vies_media_ponderada": {
+    "c1": 0.05,
+    "c234": 0.0,
+    "c5": -0.3
+  }
+}

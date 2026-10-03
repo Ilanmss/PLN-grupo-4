@@ -1,0 +1,36 @@
+[15:09] HOLDOUT 4 EPOCAS CONCLUIDO -> modelos/bertimbau/holdout_4ep
+[15:09] INICIO final 2 epocas
+[18:03] FILA RETOMADA (sessao anterior encerrou o processo)
+[18:03] INICIO final 2 epocas
+[20:48] FIM final 2 epocas -> modelos/bertimbau/final_2ep/final
+[20:48] INICIO holdout 2 epocas
+[23:16] FIM holdout 2 epocas F1=0.4536
+[23:16] INICIO holdout 2 epocas label smoothing 0.1
+[23:17] FIM ensemble (2ep) -> modelos/ensemble_bertimbau_svc/holdout_2ep/relatorio.txt
+[23:37] FILAS INTERROMPIDAS: prioridade passa a ser a validacao cruzada (pedido do usuario)
+[23:37] INICIO validacao cruzada BERTimbau 2 epocas (folds 2-5)
+[23:37] INICIO validacao cruzada classicos e baselines (CPU)
+[23:37] ERRO validacao cruzada classicos
+[23:37] ERRO relatorio
+[23:55] FIM validacao cruzada classicos
+[01:55] FIM fold BERT (2 de 5 folds prontos)
+[01:56] RELATORIO atualizado
+[04:12] FIM fold BERT (3 de 5 folds prontos)
+[04:14] RELATORIO atualizado
+[06:26] FIM fold BERT (4 de 5 folds prontos)
+[06:28] RELATORIO atualizado
+[08:40] FIM fold BERT (5 de 5 folds prontos)
+[08:43] RELATORIO atualizado
+[08:43] FIM validacao cruzada BERTimbau
+[08:46] RELATORIO FINAL gerado
+[08:46] FILA DA NOITE CONCLUIDA
+[09:54] INICIO TAPT: pre-treino MLM em todos os textos de treino
+[11:18] TAPT opcao B INTERROMPIDO (usuario pediu TAPT sem vazamento: um pre-treino por fold)
+[11:19] INICIO TAPT fold 1 (MLM so com textos de treino do fold)
+[13:18] INICIO fine-tuning fold 1 a partir do TAPT do fold
+[15:34] FIM fold 1 do TAPT
+[15:37] TAPT INTERROMPIDO apos fold 1 (empate com BERT: F1 0.4546 vs 0.4536; sem ganho no ensemble; concordancia 83.5% com BERT). Retomavel: bash modelos/bertimbau/fila_tapt_folds.sh
+[17:47] ERRO checagem Albertina fold 1
+[17:50] INICIO checagem Albertina-100m fold 1
+[23:11] FIM checagem Albertina fold 1
+[23:14] Albertina NAO continua apos fold 1 (F1 0.4370 vs BERT 0.4536; ensemble sem ganho: -0.003 com peso igual, +0.0001 com peso 0.25)

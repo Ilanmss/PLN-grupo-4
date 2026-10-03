@@ -1,0 +1,34 @@
+Dispositivo: NVIDIA GeForce GTX 1660 SUPER
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokenizando...
+Tokens por texto: mediana 182 | 10.9% truncados em 512
+Treino final com 20092 exemplos
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 22311.92it/s]
+  época 1 | lote 200/2512 | perda 1.1003 | ~73.6 min restantes
+  época 1 | lote 400/2512 | perda 1.0881 | ~69.0 min restantes
+  época 1 | lote 600/2512 | perda 1.0861 | ~62.7 min restantes
+  época 1 | lote 800/2512 | perda 1.0804 | ~55.7 min restantes
+  época 1 | lote 1000/2512 | perda 1.0778 | ~49.0 min restantes
+  época 1 | lote 1200/2512 | perda 1.0770 | ~42.4 min restantes
+  época 1 | lote 1400/2512 | perda 1.0739 | ~36.0 min restantes
+  época 1 | lote 1600/2512 | perda 1.0707 | ~29.4 min restantes
+  época 1 | lote 1800/2512 | perda 1.0686 | ~23.1 min restantes
+  época 1 | lote 2000/2512 | perda 1.0654 | ~16.6 min restantes
+  época 1 | lote 2200/2512 | perda 1.0621 | ~10.1 min restantes
+  época 1 | lote 2400/2512 | perda 1.0606 | ~3.7 min restantes
+  epoca=1 | perda_treino=1.0603 | minutos=81.8706
+  época 2 | lote 200/2512 | perda 1.0046 | ~72.5 min restantes
+  época 2 | lote 400/2512 | perda 0.9989 | ~71.5 min restantes
+  época 2 | lote 600/2512 | perda 0.9970 | ~62.2 min restantes
+  época 2 | lote 800/2512 | perda 0.9943 | ~56.1 min restantes
+  época 2 | lote 1000/2512 | perda 0.9918 | ~49.8 min restantes
+  época 2 | lote 1200/2512 | perda 0.9883 | ~43.3 min restantes
+  época 2 | lote 1400/2512 | perda 0.9882 | ~36.4 min restantes
+  época 2 | lote 1600/2512 | perda 0.9882 | ~30.0 min restantes
+  época 2 | lote 1800/2512 | perda 0.9856 | ~23.5 min restantes
+  época 2 | lote 2000/2512 | perda 0.9860 | ~16.9 min restantes
+  época 2 | lote 2200/2512 | perda 0.9870 | ~10.3 min restantes
+  época 2 | lote 2400/2512 | perda 0.9861 | ~3.7 min restantes
+  epoca=2 | perda_treino=0.9857 | minutos=82.0997
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.21it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.21it/s]
+Modelo salvo em modelos/bertimbau/final_2ep\final

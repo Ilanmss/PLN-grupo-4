@@ -1,0 +1,13 @@
+TESTE 14/200
+Inicio: 2026-09-28 23:59:27
+Representacao: word_1
+Classificador: LinearSVC
+Parametros: {"C": 10, "class_weight": "balanced"}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.42361031418899603, 0.42750461393324213, 0.41439881397311545, 0.41406531324238766, 0.4076609525858234]
+F1-macro medio: 0.417448
+Desvio padrao: 0.007994
+Accuracy media: 0.417532
+Duracao: 0.63 minutos
+Status: CONCLUIDO

@@ -1,0 +1,13 @@
+TESTE 192/200
+Inicio: 2026-09-29 03:47:59
+Representacao: word_charwb
+Classificador: SGD_hinge
+Parametros: {"alpha": 0.0001, "class_weight": "balanced"}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.4447942755093716, 0.4575831899401222, 0.439769351577969, 0.4408597831550347, 0.42716902787596306]
+F1-macro medio: 0.442035
+Desvio padrao: 0.010919
+Accuracy media: 0.444533
+Duracao: 2.18 minutos
+Status: CONCLUIDO
