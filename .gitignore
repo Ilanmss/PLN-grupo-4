@@ -228,6 +228,7 @@ modelos/ensemble_classico/modelo_avaliado_split_baseline.joblib
 modelos/finais/svc_word12_char25.joblib
 #   Cache das classes gramaticais do spaCy (65 MB): python -m analise_duplicatas.filtro_gramatical
 analise_duplicatas/cache_pos.pkl
+<<<<<<< HEAD
 # Ignorar modelos pesados do PyTorch/Transformers
 *.pt
 *.safetensors
