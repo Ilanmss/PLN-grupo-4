@@ -1,0 +1,53 @@
+ENSEMBLE CLÁSSICO: TF-IDF palavra+caractere + LinearSVC calibrado  +  TF-IDF palavra + ComplementNB
+==========================================================================================
+Combinação: média simples das probabilidades dos dois modelos.
+
+--- Divisão do baseline (aleatória 80/20, semente 123): 16073 treino / 4019 teste ---
+
+                            modelo  f1_macro  accuracy  kappa
+Baseline oficial (TF-IDF + LogReg)    0.4648    0.4675 0.2017
+SVC palavra+caractere (componente)    0.4696    0.4740 0.2101
+         ComplementNB (componente)    0.4762    0.4770 0.2151
+       Ensemble SVC + ComplementNB    0.4834    0.4854 0.2275
+
+Ensemble - relatório por classe:
+              precision    recall  f1-score   support
+
+          c1     0.5151    0.5106    0.5129      1269
+        c234     0.4223    0.3764    0.3980      1371
+          c5     0.5114    0.5707    0.5394      1379
+
+    accuracy                         0.4854      4019
+   macro avg     0.4829    0.4859    0.4834      4019
+weighted avg     0.4822    0.4854    0.4828      4019
+Matriz de confusão (linhas = real, colunas = previsto), ordem ['c1', 'c234', 'c5']:
+[[648 326 295]
+ [398 516 457]
+ [212 380 787]]
+
+Teste de recarga: modelos/ensemble_classico\modelo_avaliado_split_baseline.joblib carregado do disco; predições idênticas às do modelo em memória (F1-macro 0.4834).
+
+--- Holdout agrupado por texto (fold 1, semente 42): 16116 treino / 3976 teste ---
+
+                            modelo  f1_macro  accuracy  kappa
+Baseline oficial (TF-IDF + LogReg)    0.4412    0.4429 0.1647
+SVC palavra+caractere (componente)    0.4552    0.4610 0.1906
+         ComplementNB (componente)    0.4496    0.4522 0.1777
+       Ensemble SVC + ComplementNB    0.4520    0.4560 0.1831
+
+Ensemble - relatório por classe:
+              precision    recall  f1-score   support
+
+          c1     0.4632    0.4659    0.4646      1217
+        c234     0.4059    0.3338    0.3664      1390
+          c5     0.4860    0.5712    0.5252      1369
+
+    accuracy                         0.4560      3976
+   macro avg     0.4517    0.4570    0.4520      3976
+weighted avg     0.4511    0.4560    0.4511      3976
+Matriz de confusão (linhas = real, colunas = previsto), ordem ['c1', 'c234', 'c5']:
+[[567 337 313]
+ [412 464 514]
+ [245 342 782]]
+
+Modelo final (100% dos 20092 textos) salvo em modelos/ensemble_classico\modelo_final.joblib

@@ -1,0 +1,156 @@
+RANKING FINAL DOS EXPERIMENTOS
+======================================================================
+
+Configuracoes executadas: 200
+Configuracoes validas: 130
+
+1. ID=45 | F1=0.449006 | DP=0.007283
+   Representacao: word_12
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": null}
+
+2. ID=46 | F1=0.448866 | DP=0.006739
+   Representacao: word_12
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": "balanced"}
+
+3. ID=165 | F1=0.448746 | DP=0.006740
+   Representacao: word_charwb
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": null}
+
+4. ID=85 | F1=0.448736 | DP=0.004488
+   Representacao: char_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": null}
+
+5. ID=118 | F1=0.448339 | DP=0.009034
+   Representacao: char_35
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": "balanced"}
+
+6. ID=78 | F1=0.448335 | DP=0.005851
+   Representacao: word_12
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": "balanced"}
+
+7. ID=77 | F1=0.448049 | DP=0.004780
+   Representacao: word_12
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": null}
+
+8. ID=164 | F1=0.447992 | DP=0.003009
+   Representacao: word_charwb
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": "balanced"}
+
+9. ID=198 | F1=0.447602 | DP=0.006648
+   Representacao: word_charwb
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": "balanced"}
+
+10. ID=197 | F1=0.447501 | DP=0.006344
+   Representacao: word_charwb
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": null}
+
+11. ID=5 | F1=0.447489 | DP=0.011249
+   Representacao: word_1
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": null}
+
+12. ID=166 | F1=0.447451 | DP=0.006117
+   Representacao: word_charwb
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": "balanced"}
+
+13. ID=86 | F1=0.447445 | DP=0.006932
+   Representacao: char_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": "balanced"}
+
+14. ID=117 | F1=0.447414 | DP=0.006924
+   Representacao: char_35
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": null}
+
+15. ID=48 | F1=0.447392 | DP=0.007354
+   Representacao: word_12
+   Modelo: LinearSVC
+   Parametros: {"C": 0.3, "class_weight": "balanced"}
+
+16. ID=47 | F1=0.447188 | DP=0.007540
+   Representacao: word_12
+   Modelo: LinearSVC
+   Parametros: {"C": 0.3, "class_weight": null}
+
+17. ID=163 | F1=0.446758 | DP=0.002390
+   Representacao: word_charwb
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": null}
+
+18. ID=6 | F1=0.446557 | DP=0.008049
+   Representacao: word_1
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": "balanced"}
+
+19. ID=72 | F1=0.446373 | DP=0.009800
+   Representacao: word_12
+   Modelo: SGD_hinge
+   Parametros: {"alpha": 0.0001, "class_weight": "balanced"}
+
+20. ID=84 | F1=0.445601 | DP=0.002284
+   Representacao: char_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": "balanced"}
+
+21. ID=126 | F1=0.445560 | DP=0.007140
+   Representacao: charwb_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": "balanced"}
+
+22. ID=125 | F1=0.445484 | DP=0.007319
+   Representacao: charwb_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.1, "class_weight": null}
+
+23. ID=44 | F1=0.445137 | DP=0.004958
+   Representacao: word_12
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": "balanced"}
+
+24. ID=83 | F1=0.444971 | DP=0.003612
+   Representacao: char_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": null}
+
+25. ID=37 | F1=0.444925 | DP=0.008711
+   Representacao: word_1
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": null}
+
+26. ID=124 | F1=0.444810 | DP=0.003791
+   Representacao: charwb_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": "balanced"}
+
+27. ID=71 | F1=0.444776 | DP=0.010960
+   Representacao: word_12
+   Modelo: SGD_hinge
+   Parametros: {"alpha": 0.0001, "class_weight": null}
+
+28. ID=4 | F1=0.444648 | DP=0.003976
+   Representacao: word_1
+   Modelo: LinearSVC
+   Parametros: {"C": 0.03, "class_weight": "balanced"}
+
+29. ID=128 | F1=0.444213 | DP=0.006807
+   Representacao: charwb_35
+   Modelo: LinearSVC
+   Parametros: {"C": 0.3, "class_weight": "balanced"}
+
+30. ID=38 | F1=0.444146 | DP=0.009516
+   Representacao: word_1
+   Modelo: SGD_log_loss
+   Parametros: {"alpha": 0.0001, "class_weight": "balanced"}
+

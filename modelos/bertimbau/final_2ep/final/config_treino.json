@@ -1,0 +1,16 @@
+{
+  "modo": "final",
+  "modelo": "neuralmind/bert-base-portuguese-cased",
+  "max_len": 512,
+  "tokens_inicio": 128,
+  "epocas": 2,
+  "lr": 2e-05,
+  "lote": 8,
+  "acumulacao": 2,
+  "warmup": 0.1,
+  "label_smoothing": 0.0,
+  "folds": 5,
+  "semente": 42,
+  "teste": null,
+  "saida": "modelos/bertimbau/final_2ep"
+}

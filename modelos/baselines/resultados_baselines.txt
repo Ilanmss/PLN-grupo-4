@@ -1,0 +1,14 @@
+RESULTADOS DOS BASELINES (F1-Macro)
+==================================================
+
+Classe majoritária       : 0.1703
+BoW + LogReg             : 0.4494
+TF-IDF + LogReg          : 0.4648
+
+==================================================
+Configurações utilizadas:
+- Divisão treino/teste: 80/20
+- Random State: 123
+- Métrica: F1-Score Macro
+- Regressão Logística: class_weight='balanced'
+- Max Iterations: 3000

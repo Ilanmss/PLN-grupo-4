@@ -1,0 +1,52 @@
+Dispositivo: NVIDIA GeForce GTX 1660 SUPER
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokenizando...
+Tokens por texto: mediana 272 | 23.9% truncados em 512
+
+=== Fold 1/5: 16116 treino / 3976 validação ===
+C:\Users\diego\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 84/196 [00:00<00:00, 811.41it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 1353.36it/s]
+  época 1 | lote 200/4029 | perda 1.1073 | ~116.2 min restantes
+  época 1 | lote 400/4029 | perda 1.1040 | ~111.0 min restantes
+  época 1 | lote 600/4029 | perda 1.1018 | ~105.0 min restantes
+  época 1 | lote 800/4029 | perda 1.1012 | ~100.1 min restantes
+  época 1 | lote 1000/4029 | perda 1.1011 | ~94.2 min restantes
+  época 1 | lote 1200/4029 | perda 1.1010 | ~86.8 min restantes
+  época 1 | lote 1400/4029 | perda 1.1010 | ~81.7 min restantes
+  época 1 | lote 1600/4029 | perda 1.1012 | ~74.9 min restantes
+  época 1 | lote 1800/4029 | perda 1.1003 | ~69.0 min restantes
+  época 1 | lote 2000/4029 | perda 1.1005 | ~63.0 min restantes
+  época 1 | lote 2200/4029 | perda 1.1009 | ~57.3 min restantes
+  época 1 | lote 2400/4029 | perda 1.1016 | ~51.1 min restantes
+  época 1 | lote 2600/4029 | perda 1.1013 | ~44.8 min restantes
+  época 1 | lote 2800/4029 | perda 1.1015 | ~38.7 min restantes
+  época 1 | lote 3000/4029 | perda 1.1011 | ~32.8 min restantes
+  época 1 | lote 3200/4029 | perda 1.0997 | ~26.7 min restantes
+  época 1 | lote 3400/4029 | perda 1.0983 | ~20.5 min restantes
+  época 1 | lote 3600/4029 | perda 1.0969 | ~14.1 min restantes
+  época 1 | lote 3800/4029 | perda 1.0955 | ~7.6 min restantes
+  época 1 | lote 4000/4029 | perda 1.0953 | ~1.0 min restantes
+  epoca=1 | perda_treino=1.0950 | minutos=134.2085 | f1_macro=0.4195 | accuracy=0.4230 | kappa=0.1286
+  época 2 | lote 200/4029 | perda 1.0636 | ~148.9 min restantes
+  época 2 | lote 400/4029 | perda 1.0635 | ~144.0 min restantes
+  época 2 | lote 600/4029 | perda 1.0589 | ~136.6 min restantes
+  época 2 | lote 800/4029 | perda 1.0613 | ~124.2 min restantes
+  época 2 | lote 1000/4029 | perda 1.0601 | ~116.1 min restantes
+  época 2 | lote 1200/4029 | perda 1.0573 | ~107.8 min restantes
+  época 2 | lote 1400/4029 | perda 1.0573 | ~101.1 min restantes
+  época 2 | lote 1600/4029 | perda 1.0590 | ~93.3 min restantes
+  época 2 | lote 1800/4029 | perda 1.0576 | ~86.5 min restantes
+  época 2 | lote 2000/4029 | perda 1.0590 | ~78.5 min restantes
+  época 2 | lote 2200/4029 | perda 1.0574 | ~70.7 min restantes
+  época 2 | lote 2400/4029 | perda 1.0565 | ~63.0 min restantes
+  época 2 | lote 2600/4029 | perda 1.0562 | ~55.2 min restantes
+  época 2 | lote 2800/4029 | perda 1.0546 | ~47.9 min restantes
+  época 2 | lote 3000/4029 | perda 1.0523 | ~40.1 min restantes
+  época 2 | lote 3200/4029 | perda 1.0503 | ~32.3 min restantes
+  época 2 | lote 3400/4029 | perda 1.0496 | ~24.6 min restantes
+  época 2 | lote 3600/4029 | perda 1.0490 | ~16.8 min restantes
+  época 2 | lote 3800/4029 | perda 1.0483 | ~9.0 min restantes
+  época 2 | lote 4000/4029 | perda 1.0472 | ~1.1 min restantes
+  epoca=2 | perda_treino=1.0470 | minutos=158.5859 | f1_macro=0.4370 | accuracy=0.4497 | kappa=0.1758
+Folds ainda não concluídos: [2, 3, 4, 5]. O relatório da validação cruzada sai quando todos terminarem.

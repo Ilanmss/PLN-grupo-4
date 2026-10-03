@@ -1,0 +1,184 @@
+COMPARACAO DE MODELOS NO TESTE INDEPENDENTE
+======================================================================
+
+    modelo decodificacao  f1_macro  accuracy  kappa  kappa_quadratico  f1_c1  f1_c234  f1_c5  delta_f1_vs_baseline
+ LR_word12   multiclasse    0.4477    0.4556 0.1798            0.2709 0.4332   0.3780 0.5318               -0.0302
+ LR_word12      binarios    0.4517    0.4521 0.1792            0.2889 0.4881   0.3754 0.4917               -0.0261
+ LR_word12 binarios_soma    0.4468    0.4454 0.1672            0.2945 0.4576   0.3844 0.4985               -0.0310
+  LR_word1   multiclasse    0.4469    0.4536 0.1776            0.2700 0.4493   0.3670 0.5243               -0.0309
+  LR_word1      binarios    0.4583    0.4588 0.1878            0.2920 0.4727   0.3897 0.5125               -0.0195
+  LR_word1 binarios_soma    0.4385    0.4387 0.1579            0.2908 0.4641   0.3520 0.4995               -0.0393
+SVC_word12   multiclasse    0.4778    0.4800 0.2189            0.3336 0.5028   0.3925 0.5382                0.0000
+SVC_word12      binarios    0.4704    0.4705 0.2062            0.3463 0.5229   0.3759 0.5124               -0.0074
+SVC_word12 binarios_soma    0.4524    0.4531 0.1797            0.3368 0.4947   0.3443 0.5183               -0.0254
+
+----------------------------------------------------------------------
+LR_word12 | multiclasse 
+
+              precision    recall  f1-score   support
+
+          c1       0.51      0.37      0.43      1269
+        c234       0.40      0.36      0.38      1371
+          c5       0.46      0.63      0.53      1379
+
+    accuracy                           0.46      4019
+   macro avg       0.46      0.45      0.45      4019
+weighted avg       0.46      0.46      0.45      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[475 360 434]
+ [298 487 586]
+ [151 359 869]]
+
+----------------------------------------------------------------------
+LR_word12 | binarios (F1 OOF=0.4414, t1=0.7465, t2=-0.5093)
+
+              precision    recall  f1-score   support
+
+          c1       0.46      0.53      0.49      1269
+        c234       0.39      0.36      0.38      1371
+          c5       0.51      0.47      0.49      1379
+
+    accuracy                           0.45      4019
+   macro avg       0.45      0.45      0.45      4019
+weighted avg       0.45      0.45      0.45      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[668 363 238]
+ [493 498 380]
+ [307 421 651]]
+
+----------------------------------------------------------------------
+LR_word12 | binarios_soma (F1 OOF=0.4362, t1=-0.0772, t2=0.4133)
+
+              precision    recall  f1-score   support
+
+          c1       0.46      0.45      0.46      1269
+        c234       0.37      0.40      0.38      1371
+          c5       0.51      0.49      0.50      1379
+
+    accuracy                           0.45      4019
+   macro avg       0.45      0.45      0.45      4019
+weighted avg       0.45      0.45      0.45      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[572 455 242]
+ [424 547 400]
+ [235 473 671]]
+
+----------------------------------------------------------------------
+LR_word1 | multiclasse 
+
+              precision    recall  f1-score   support
+
+          c1       0.50      0.41      0.45      1269
+        c234       0.40      0.34      0.37      1371
+          c5       0.46      0.61      0.52      1379
+
+    accuracy                           0.45      4019
+   macro avg       0.45      0.45      0.45      4019
+weighted avg       0.45      0.45      0.45      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[514 335 420]
+ [326 463 582]
+ [179 354 846]]
+
+----------------------------------------------------------------------
+LR_word1 | binarios (F1 OOF=0.4427, t1=0.6785, t2=-0.5129)
+
+              precision    recall  f1-score   support
+
+          c1       0.47      0.48      0.47      1269
+        c234       0.40      0.38      0.39      1371
+          c5       0.51      0.52      0.51      1379
+
+    accuracy                           0.46      4019
+   macro avg       0.46      0.46      0.46      4019
+weighted avg       0.46      0.46      0.46      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[606 391 272]
+ [424 523 424]
+ [265 399 715]]
+
+----------------------------------------------------------------------
+LR_word1 | binarios_soma (F1 OOF=0.4330, t1=-0.0985, t2=0.4403)
+
+              precision    recall  f1-score   support
+
+          c1       0.45      0.47      0.46      1269
+        c234       0.36      0.35      0.35      1371
+          c5       0.50      0.50      0.50      1379
+
+    accuracy                           0.44      4019
+   macro avg       0.44      0.44      0.44      4019
+weighted avg       0.44      0.44      0.44      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[602 410 257]
+ [469 474 428]
+ [254 438 687]]
+
+----------------------------------------------------------------------
+SVC_word12 | multiclasse 
+
+              precision    recall  f1-score   support
+
+          c1       0.51      0.49      0.50      1269
+        c234       0.41      0.37      0.39      1371
+          c5       0.51      0.58      0.54      1379
+
+    accuracy                           0.48      4019
+   macro avg       0.48      0.48      0.48      4019
+weighted avg       0.48      0.48      0.48      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[624 339 306]
+ [390 512 469]
+ [199 387 793]]
+
+----------------------------------------------------------------------
+SVC_word12 | binarios (F1 OOF=0.4558, t1=0.2998, t2=-0.2033)
+
+              precision    recall  f1-score   support
+
+          c1       0.50      0.55      0.52      1269
+        c234       0.39      0.37      0.38      1371
+          c5       0.52      0.50      0.51      1379
+
+    accuracy                           0.47      4019
+   macro avg       0.47      0.47      0.47      4019
+weighted avg       0.47      0.47      0.47      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[697 345 227]
+ [466 502 403]
+ [234 453 692]]
+
+----------------------------------------------------------------------
+SVC_word12 | binarios_soma (F1 OOF=0.4490, t1=-0.1332, t2=0.2680)
+
+              precision    recall  f1-score   support
+
+          c1       0.48      0.51      0.49      1269
+        c234       0.36      0.33      0.34      1371
+          c5       0.52      0.52      0.52      1379
+
+    accuracy                           0.45      4019
+   macro avg       0.45      0.45      0.45      4019
+weighted avg       0.45      0.45      0.45      4019
+
+Matriz de confusao (linhas = real, colunas = previsto):
+Ordem: ['c1', 'c234', 'c5']
+[[648 388 233]
+ [479 457 435]
+ [224 439 716]]

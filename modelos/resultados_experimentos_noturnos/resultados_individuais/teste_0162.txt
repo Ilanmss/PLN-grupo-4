@@ -1,0 +1,13 @@
+TESTE 162/200
+Inicio: 2026-09-29 02:44:32
+Representacao: word_charwb
+Classificador: LinearSVC
+Parametros: {"C": 0.01, "class_weight": "balanced"}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.44322397057770163, 0.4381098128540903, 0.4441447708355315, 0.441596505105825, 0.43803180344409737]
+F1-macro medio: 0.441021
+Desvio padrao: 0.002844
+Accuracy media: 0.447707
+Duracao: 2.02 minutos
+Status: CONCLUIDO

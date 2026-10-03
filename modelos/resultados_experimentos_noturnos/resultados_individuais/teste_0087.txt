@@ -1,0 +1,13 @@
+TESTE 87/200
+Inicio: 2026-09-29 00:31:35
+Representacao: char_35
+Classificador: LinearSVC
+Parametros: {"C": 0.3, "class_weight": null}
+
+RESULTADOS DA VALIDACAO CRUZADA
+F1-macro por fold: [0.45126093874667234, 0.43529781970496223, 0.439902265828866, 0.4491782619806813, 0.43410774614494113]
+F1-macro medio: 0.441949
+Desvio padrao: 0.007888
+Accuracy media: 0.443601
+Duracao: 2.66 minutos
+Status: CONCLUIDO

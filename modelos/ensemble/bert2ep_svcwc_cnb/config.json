@@ -1,0 +1,17 @@
+{
+  "modelos": {
+    "bert": "modelos/holdout_probabilidades/bertimbau.csv",
+    "svc_wc": "modelos/holdout_probabilidades/svc_word12_char25.csv",
+    "cnb": "modelos/holdout_probabilidades/complementnb_word12.csv"
+  },
+  "pesos_media_ponderada": {
+    "bert": 0.4625,
+    "svc_wc": 0.5375,
+    "cnb": 0.0
+  },
+  "vies_media_ponderada": {
+    "c1": -0.0,
+    "c234": 0.0,
+    "c5": -0.15
+  }
+}

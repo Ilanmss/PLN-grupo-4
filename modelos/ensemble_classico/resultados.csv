@@ -1,0 +1,9 @@
+divisão,modelo,f1_macro,accuracy,kappa
+"Divisão do baseline (aleatória 80/20, semente 123)",Baseline oficial (TF-IDF + LogReg),0.4647566493904364,0.46752923612839015,0.2017079169461249
+"Divisão do baseline (aleatória 80/20, semente 123)",SVC palavra+caractere (componente),0.4696256390900045,0.47399850709131625,0.21007517527509223
+"Divisão do baseline (aleatória 80/20, semente 123)",ComplementNB (componente),0.4762264607864369,0.4769843244588206,0.21506342256043953
+"Divisão do baseline (aleatória 80/20, semente 123)",Ensemble SVC + ComplementNB,0.4834220853806444,0.48544414033341626,0.2274541852089118
+"Holdout agrupado por texto (fold 1, semente 42)",Baseline oficial (TF-IDF + LogReg),0.44120310598916385,0.442907444668008,0.16465842426505073
+"Holdout agrupado por texto (fold 1, semente 42)",SVC palavra+caractere (componente),0.4552196654067074,0.46101609657947684,0.19060526341287598
+"Holdout agrupado por texto (fold 1, semente 42)",ComplementNB (componente),0.4496491130984371,0.4522132796780684,0.17772721601404695
+"Holdout agrupado por texto (fold 1, semente 42)",Ensemble SVC + ComplementNB,0.4520374621242175,0.45598591549295775,0.1830817583358293
