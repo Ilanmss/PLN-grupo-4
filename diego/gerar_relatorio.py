@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
 
-from ensemble_holdout import ajustar_vies, media_aplicar, media_ponderada_ajustar, media_simples_ajustar
+from diego.ensemble_holdout import ajustar_vies, media_aplicar, media_ponderada_ajustar, media_simples_ajustar
 from src.data_loader import load_data
 from src.divisoes import obter_divisao
 

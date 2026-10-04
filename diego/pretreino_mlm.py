@@ -26,7 +26,7 @@ import numpy as np
 import torch
 from transformers import AutoModel, AutoModelForMaskedLM, AutoTokenizer
 
-from finetune_bertimbau import (criar_agendador, criar_lotes, criar_otimizador, dividir_folds, fixar_semente,
+from diego.finetune_bertimbau import (criar_agendador, criar_lotes, criar_otimizador, dividir_folds, fixar_semente,
                                 montar_lote, tokenizar)
 from src.data_loader import load_data
 

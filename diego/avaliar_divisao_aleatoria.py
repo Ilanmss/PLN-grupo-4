@@ -22,7 +22,7 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn.pipeline import make_pipeline
 
-import gerar_relatorio as g
+import diego.gerar_relatorio as g
 from src.modelos_classicos import FABRICAS
 
 PASTA_SAIDA = 'modelos/cv_aleatoria'

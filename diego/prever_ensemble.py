@@ -37,7 +37,7 @@ def probabilidades_bert(textos, pasta):
     import torch
     from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-    from finetune_bertimbau import prever_probabilidades, tokenizar
+    from diego.finetune_bertimbau import prever_probabilidades, tokenizar
 
     with open(os.path.join(pasta, 'config_treino.json'), encoding='utf-8') as f:
         config = json.load(f)
